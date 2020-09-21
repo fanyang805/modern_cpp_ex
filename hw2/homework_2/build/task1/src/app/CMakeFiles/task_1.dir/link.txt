@@ -1,0 +1,1 @@
+/usr/bin/clang++-10  -Wall -Wextra -g -O0   CMakeFiles/task_1.dir/task1.cpp.o  -o ../../../../bin/task_1 ../../../../lib/libipb_arthmetic.a 

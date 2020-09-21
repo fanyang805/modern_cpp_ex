@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/fan/Documents/cv_cpp/assignment/hw2/homework_2/build/task1/src/lib",
+  "command": "/usr/bin/clang++-10   -I/home/fan/Documents/cv_cpp/assignment/hw2/homework_2/task1/src -I/home/fan/Documents/cv_cpp/assignment/hw2/homework_2/task1/include  -Wall -Wextra -g -O0   -std=gnu++1z -o CMakeFiles/ipb_arthmetic.dir/rand_num.cpp.o -c /home/fan/Documents/cv_cpp/assignment/hw2/homework_2/task1/src/lib/rand_num.cpp",
+  "file": "/home/fan/Documents/cv_cpp/assignment/hw2/homework_2/task1/src/lib/rand_num.cpp"
+},
+{
+  "directory": "/home/fan/Documents/cv_cpp/assignment/hw2/homework_2/build/task1/src/app",
+  "command": "/usr/bin/clang++-10   -I/home/fan/Documents/cv_cpp/assignment/hw2/homework_2/task1/src -I/home/fan/Documents/cv_cpp/assignment/hw2/homework_2/task1/include  -Wall -Wextra -g -O0   -std=gnu++1z -o CMakeFiles/task_1.dir/task1.cpp.o -c /home/fan/Documents/cv_cpp/assignment/hw2/homework_2/task1/src/app/task1.cpp",
+  "file": "/home/fan/Documents/cv_cpp/assignment/hw2/homework_2/task1/src/app/task1.cpp"
+},
+{
+  "directory": "/home/fan/Documents/cv_cpp/assignment/hw2/homework_2/build/task2/src/app",
+  "command": "/usr/bin/clang++-10   -I/home/fan/Documents/cv_cpp/assignment/hw2/homework_2/task2/include  -Wall -Wextra -g -O0   -std=gnu++1z -o CMakeFiles/task_2.dir/task2.cpp.o -c /home/fan/Documents/cv_cpp/assignment/hw2/homework_2/task2/src/app/task2.cpp",
+  "file": "/home/fan/Documents/cv_cpp/assignment/hw2/homework_2/task2/src/app/task2.cpp"
+}
+]

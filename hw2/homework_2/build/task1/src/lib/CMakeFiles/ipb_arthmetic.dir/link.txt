@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/libipb_arthmetic.a  CMakeFiles/ipb_arthmetic.dir/rand_num.cpp.o
+/usr/bin/ranlib ../../../../lib/libipb_arthmetic.a

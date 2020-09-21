@@ -1,0 +1,1 @@
+add_library(ipb_arthmetic rand_num.cpp)

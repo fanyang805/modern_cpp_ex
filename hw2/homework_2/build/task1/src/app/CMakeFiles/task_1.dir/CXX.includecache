@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../task1/include/rand_num.hpp
+
+/home/fan/Documents/cv_cpp/assignment/hw2/homework_2/task1/src/app/task1.cpp
+rand_num.hpp
+/home/fan/Documents/cv_cpp/assignment/hw2/homework_2/task1/src/app/rand_num.hpp
+cstdlib
+-
+iostream
+-
+

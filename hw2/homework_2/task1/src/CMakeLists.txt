@@ -1,0 +1,10 @@
+
+
+add_subdirectory(lib)
+add_subdirectory(app)
+
+# message(STUTUS "The PROJECT_SOURCE_DIR is ${PROJECT_SOURCE_DIR}")
+# message(STUTUS "The CMAKE_BINARY_DIR is ${CMAKE_BINARY_DIR}")
+# message(STUTUS "The CMAKE_SOURCE_DIR is ${CMAKE_SOURCE_DIR}")
+# message(STUTUS "The CMAKE_CURRENT_BINARY_DIR is ${CMAKE_CURRENT_BINARY_DIR}")
+# message(STUTUS "The CMAKE_CURRENT_SOURCE_DIR is ${CMAKE_CURRENT_SOURCE_DIR}")

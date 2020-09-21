@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fan/Documents/cv_cpp/assignment/hw2/homework_2/task2/src/app/task2.cpp
+iostream
+-
+sstream
+-
+string
+-
+vector
+-
+
