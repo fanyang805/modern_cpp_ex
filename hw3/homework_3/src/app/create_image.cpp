@@ -31,4 +31,5 @@ int main() {
     rows.push_back(img_row);
   }
   image_browser::CreateImageBrowser(title, stylesheet, rows);
+  return 0;
 }
