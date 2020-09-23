@@ -19,14 +19,10 @@ vector
 /home/fan/Documents/cv_cpp/assignment/hw3/homework_3/src/app/create_image.cpp
 image_browser.hpp
 /home/fan/Documents/cv_cpp/assignment/hw3/homework_3/src/app/image_browser.hpp
-chrono
--
 cstdlib
 -
 ctime
 -
 string
--
-thread
 -
 
