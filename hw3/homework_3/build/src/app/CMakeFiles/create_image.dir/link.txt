@@ -1,0 +1,1 @@
+/usr/bin/clang++-10  -Wall -Wextra -g -O0   CMakeFiles/create_image.dir/create_image.cpp.o  -o ../../../bin/create_image ../../../lib/libimage_browser.a ../../../lib/libhtml_writer.a 

@@ -111,17 +111,56 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hw2_format
+# Target rules for targets named test_fmt
 
 # Build rule for target.
-hw2_format: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hw2_format
-.PHONY : hw2_format
+test_fmt: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_fmt
+.PHONY : test_fmt
 
 # fast build rule for target.
-hw2_format/fast:
-	$(MAKE) -f CMakeFiles/hw2_format.dir/build.make CMakeFiles/hw2_format.dir/build
-.PHONY : hw2_format/fast
+test_fmt/fast:
+	$(MAKE) -f test/CMakeFiles/test_fmt.dir/build.make test/CMakeFiles/test_fmt.dir/build
+.PHONY : test_fmt/fast
+
+#=============================================================================
+# Target rules for targets named image_browser
+
+# Build rule for target.
+image_browser: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 image_browser
+.PHONY : image_browser
+
+# fast build rule for target.
+image_browser/fast:
+	$(MAKE) -f src/lib/CMakeFiles/image_browser.dir/build.make src/lib/CMakeFiles/image_browser.dir/build
+.PHONY : image_browser/fast
+
+#=============================================================================
+# Target rules for targets named html_writer
+
+# Build rule for target.
+html_writer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 html_writer
+.PHONY : html_writer
+
+# fast build rule for target.
+html_writer/fast:
+	$(MAKE) -f src/lib/CMakeFiles/html_writer.dir/build.make src/lib/CMakeFiles/html_writer.dir/build
+.PHONY : html_writer/fast
+
+#=============================================================================
+# Target rules for targets named create_image
+
+# Build rule for target.
+create_image: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 create_image
+.PHONY : create_image
+
+# fast build rule for target.
+create_image/fast:
+	$(MAKE) -f src/app/CMakeFiles/create_image.dir/build.make src/app/CMakeFiles/create_image.dir/build
+.PHONY : create_image/fast
 
 # Help Target
 help:
@@ -131,7 +170,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... hw2_format"
+	@echo "... test_fmt"
+	@echo "... image_browser"
+	@echo "... html_writer"
+	@echo "... create_image"
 .PHONY : help
 
 

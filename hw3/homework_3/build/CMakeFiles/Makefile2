@@ -60,39 +60,228 @@ CMAKE_SOURCE_DIR = /home/fan/Documents/cv_cpp/assignment/hw3/homework_3
 CMAKE_BINARY_DIR = /home/fan/Documents/cv_cpp/assignment/hw3/homework_3/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/hw2_format.dir
+# Directory level rules for directory test
+
+# Convenience name for "all" pass in the directory.
+test/all: test/CMakeFiles/test_fmt.dir/all
+
+.PHONY : test/all
+
+# Convenience name for "clean" pass in the directory.
+test/clean: test/CMakeFiles/test_fmt.dir/clean
+
+.PHONY : test/clean
+
+# Convenience name for "preinstall" pass in the directory.
+test/preinstall:
+
+.PHONY : test/preinstall
+
+#=============================================================================
+# Target rules for target test/CMakeFiles/test_fmt.dir
 
 # All Build rule for target.
-CMakeFiles/hw2_format.dir/all:
-	$(MAKE) -f CMakeFiles/hw2_format.dir/build.make CMakeFiles/hw2_format.dir/depend
-	$(MAKE) -f CMakeFiles/hw2_format.dir/build.make CMakeFiles/hw2_format.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fan/Documents/cv_cpp/assignment/hw3/homework_3/build/CMakeFiles --progress-num=1 "Built target hw2_format"
-.PHONY : CMakeFiles/hw2_format.dir/all
+test/CMakeFiles/test_fmt.dir/all:
+	$(MAKE) -f test/CMakeFiles/test_fmt.dir/build.make test/CMakeFiles/test_fmt.dir/depend
+	$(MAKE) -f test/CMakeFiles/test_fmt.dir/build.make test/CMakeFiles/test_fmt.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fan/Documents/cv_cpp/assignment/hw3/homework_3/build/CMakeFiles --progress-num=7,8 "Built target test_fmt"
+.PHONY : test/CMakeFiles/test_fmt.dir/all
 
 # Include target in all.
-all: CMakeFiles/hw2_format.dir/all
+all: test/CMakeFiles/test_fmt.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/hw2_format.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fan/Documents/cv_cpp/assignment/hw3/homework_3/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hw2_format.dir/all
+test/CMakeFiles/test_fmt.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fan/Documents/cv_cpp/assignment/hw3/homework_3/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/test_fmt.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fan/Documents/cv_cpp/assignment/hw3/homework_3/build/CMakeFiles 0
-.PHONY : CMakeFiles/hw2_format.dir/rule
+.PHONY : test/CMakeFiles/test_fmt.dir/rule
 
 # Convenience name for target.
-hw2_format: CMakeFiles/hw2_format.dir/rule
+test_fmt: test/CMakeFiles/test_fmt.dir/rule
 
-.PHONY : hw2_format
-
-# clean rule for target.
-CMakeFiles/hw2_format.dir/clean:
-	$(MAKE) -f CMakeFiles/hw2_format.dir/build.make CMakeFiles/hw2_format.dir/clean
-.PHONY : CMakeFiles/hw2_format.dir/clean
+.PHONY : test_fmt
 
 # clean rule for target.
-clean: CMakeFiles/hw2_format.dir/clean
+test/CMakeFiles/test_fmt.dir/clean:
+	$(MAKE) -f test/CMakeFiles/test_fmt.dir/build.make test/CMakeFiles/test_fmt.dir/clean
+.PHONY : test/CMakeFiles/test_fmt.dir/clean
+
+# clean rule for target.
+clean: test/CMakeFiles/test_fmt.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src
+
+# Convenience name for "all" pass in the directory.
+src/all: src/lib/all
+src/all: src/app/all
+
+.PHONY : src/all
+
+# Convenience name for "clean" pass in the directory.
+src/clean: src/lib/clean
+src/clean: src/app/clean
+
+.PHONY : src/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/preinstall: src/lib/preinstall
+src/preinstall: src/app/preinstall
+
+.PHONY : src/preinstall
+
+#=============================================================================
+# Directory level rules for directory src/lib
+
+# Convenience name for "all" pass in the directory.
+src/lib/all: src/lib/CMakeFiles/image_browser.dir/all
+src/lib/all: src/lib/CMakeFiles/html_writer.dir/all
+
+.PHONY : src/lib/all
+
+# Convenience name for "clean" pass in the directory.
+src/lib/clean: src/lib/CMakeFiles/image_browser.dir/clean
+src/lib/clean: src/lib/CMakeFiles/html_writer.dir/clean
+
+.PHONY : src/lib/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/lib/preinstall:
+
+.PHONY : src/lib/preinstall
+
+#=============================================================================
+# Target rules for target src/lib/CMakeFiles/image_browser.dir
+
+# All Build rule for target.
+src/lib/CMakeFiles/image_browser.dir/all: src/lib/CMakeFiles/html_writer.dir/all
+	$(MAKE) -f src/lib/CMakeFiles/image_browser.dir/build.make src/lib/CMakeFiles/image_browser.dir/depend
+	$(MAKE) -f src/lib/CMakeFiles/image_browser.dir/build.make src/lib/CMakeFiles/image_browser.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fan/Documents/cv_cpp/assignment/hw3/homework_3/build/CMakeFiles --progress-num=5,6 "Built target image_browser"
+.PHONY : src/lib/CMakeFiles/image_browser.dir/all
+
+# Include target in all.
+all: src/lib/CMakeFiles/image_browser.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/lib/CMakeFiles/image_browser.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fan/Documents/cv_cpp/assignment/hw3/homework_3/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 src/lib/CMakeFiles/image_browser.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fan/Documents/cv_cpp/assignment/hw3/homework_3/build/CMakeFiles 0
+.PHONY : src/lib/CMakeFiles/image_browser.dir/rule
+
+# Convenience name for target.
+image_browser: src/lib/CMakeFiles/image_browser.dir/rule
+
+.PHONY : image_browser
+
+# clean rule for target.
+src/lib/CMakeFiles/image_browser.dir/clean:
+	$(MAKE) -f src/lib/CMakeFiles/image_browser.dir/build.make src/lib/CMakeFiles/image_browser.dir/clean
+.PHONY : src/lib/CMakeFiles/image_browser.dir/clean
+
+# clean rule for target.
+clean: src/lib/CMakeFiles/image_browser.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target src/lib/CMakeFiles/html_writer.dir
+
+# All Build rule for target.
+src/lib/CMakeFiles/html_writer.dir/all:
+	$(MAKE) -f src/lib/CMakeFiles/html_writer.dir/build.make src/lib/CMakeFiles/html_writer.dir/depend
+	$(MAKE) -f src/lib/CMakeFiles/html_writer.dir/build.make src/lib/CMakeFiles/html_writer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fan/Documents/cv_cpp/assignment/hw3/homework_3/build/CMakeFiles --progress-num=3,4 "Built target html_writer"
+.PHONY : src/lib/CMakeFiles/html_writer.dir/all
+
+# Include target in all.
+all: src/lib/CMakeFiles/html_writer.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/lib/CMakeFiles/html_writer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fan/Documents/cv_cpp/assignment/hw3/homework_3/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 src/lib/CMakeFiles/html_writer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fan/Documents/cv_cpp/assignment/hw3/homework_3/build/CMakeFiles 0
+.PHONY : src/lib/CMakeFiles/html_writer.dir/rule
+
+# Convenience name for target.
+html_writer: src/lib/CMakeFiles/html_writer.dir/rule
+
+.PHONY : html_writer
+
+# clean rule for target.
+src/lib/CMakeFiles/html_writer.dir/clean:
+	$(MAKE) -f src/lib/CMakeFiles/html_writer.dir/build.make src/lib/CMakeFiles/html_writer.dir/clean
+.PHONY : src/lib/CMakeFiles/html_writer.dir/clean
+
+# clean rule for target.
+clean: src/lib/CMakeFiles/html_writer.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src/app
+
+# Convenience name for "all" pass in the directory.
+src/app/all: src/app/CMakeFiles/create_image.dir/all
+
+.PHONY : src/app/all
+
+# Convenience name for "clean" pass in the directory.
+src/app/clean: src/app/CMakeFiles/create_image.dir/clean
+
+.PHONY : src/app/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/app/preinstall:
+
+.PHONY : src/app/preinstall
+
+#=============================================================================
+# Target rules for target src/app/CMakeFiles/create_image.dir
+
+# All Build rule for target.
+src/app/CMakeFiles/create_image.dir/all: src/lib/CMakeFiles/image_browser.dir/all
+src/app/CMakeFiles/create_image.dir/all: src/lib/CMakeFiles/html_writer.dir/all
+	$(MAKE) -f src/app/CMakeFiles/create_image.dir/build.make src/app/CMakeFiles/create_image.dir/depend
+	$(MAKE) -f src/app/CMakeFiles/create_image.dir/build.make src/app/CMakeFiles/create_image.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fan/Documents/cv_cpp/assignment/hw3/homework_3/build/CMakeFiles --progress-num=1,2 "Built target create_image"
+.PHONY : src/app/CMakeFiles/create_image.dir/all
+
+# Include target in all.
+all: src/app/CMakeFiles/create_image.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/app/CMakeFiles/create_image.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fan/Documents/cv_cpp/assignment/hw3/homework_3/build/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 src/app/CMakeFiles/create_image.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fan/Documents/cv_cpp/assignment/hw3/homework_3/build/CMakeFiles 0
+.PHONY : src/app/CMakeFiles/create_image.dir/rule
+
+# Convenience name for target.
+create_image: src/app/CMakeFiles/create_image.dir/rule
+
+.PHONY : create_image
+
+# clean rule for target.
+src/app/CMakeFiles/create_image.dir/clean:
+	$(MAKE) -f src/app/CMakeFiles/create_image.dir/build.make src/app/CMakeFiles/create_image.dir/clean
+.PHONY : src/app/CMakeFiles/create_image.dir/clean
+
+# clean rule for target.
+clean: src/app/CMakeFiles/create_image.dir/clean
 
 .PHONY : clean
 

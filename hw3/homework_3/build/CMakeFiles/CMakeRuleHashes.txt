@@ -1,2 +1,0 @@
-# Hashes of file build rules.
-18c575b7c26458955d0ac5a180217ef0 CMakeFiles/hw2_format

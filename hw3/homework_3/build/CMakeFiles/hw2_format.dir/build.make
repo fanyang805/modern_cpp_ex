@@ -55,7 +55,7 @@ include CMakeFiles/hw2_format.dir/progress.make
 
 CMakeFiles/hw2_format:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fan/Documents/cv_cpp/assignment/hw3/homework_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Checking clang-format changes"
-	cd /home/fan/Documents/cv_cpp/assignment/hw3/homework_3 && /usr/bin/clang-format -Werror --dry-run --ferror-limit=1 -style=file ./api/html_writer.hpp ./api/image_browser.hpp
+	cd /home/fan/Documents/cv_cpp/assignment/hw3/homework_3 && /usr/bin/clang-format -Werror --dry-run --ferror-limit=1 -style=file ./api/html_writer.hpp ./api/image_browser.hpp ./test/test.cpp
 
 hw2_format: CMakeFiles/hw2_format
 hw2_format: CMakeFiles/hw2_format.dir/build.make

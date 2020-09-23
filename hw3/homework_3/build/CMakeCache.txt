@@ -191,11 +191,20 @@ ENABLE_CLANG_TIDY:BOOL=ON
 //Enable static analysis with cppcheck
 ENABLE_CPPCHECK:BOOL=ON
 
+//The directory containing a CMake configuration file for fmt.
+fmt_DIR:PATH=/usr/local/lib/cmake/fmt
+
+//Dependencies for target
+html_writer_LIB_DEPENDS:STATIC=
+
 //Value Computed by CMake
 hw2_BINARY_DIR:STATIC=/home/fan/Documents/cv_cpp/assignment/hw3/homework_3/build
 
 //Value Computed by CMake
 hw2_SOURCE_DIR:STATIC=/home/fan/Documents/cv_cpp/assignment/hw3/homework_3
+
+//Dependencies for the target
+image_browser_LIB_DEPENDS:STATIC=general;html_writer;
 
 
 ########################
@@ -296,7 +305,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

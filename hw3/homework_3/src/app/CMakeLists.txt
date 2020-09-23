@@ -1,0 +1,3 @@
+add_executable(create_image create_image.cpp)
+
+target_link_libraries(create_image image_browser)
