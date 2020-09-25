@@ -1,0 +1,1 @@
+add_library(ipb_algorithm named_vector.cpp)

@@ -31,7 +31,7 @@ TEMPLATE_TEST_CASE("ipb::named_vector can be initalized as an std::vector",
 
   SECTION("Initialize with name only") {
     ipb::named_vector<TestType> templated_vector{type_name, {}};
-    REQUIRE(templated_vector.empty());  // still considered to be empty
+    REQUIRE(templated_vector.empty()); // still considered to be empty
     REQUIRE(!templated_vector.name().empty());
     REQUIRE(templated_vector.vector().empty());
     REQUIRE(templated_vector.name() == type_name);

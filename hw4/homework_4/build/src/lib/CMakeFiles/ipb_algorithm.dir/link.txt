@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libipb_algorithm.a  CMakeFiles/ipb_algorithm.dir/named_vector.cpp.o
+/usr/bin/ranlib ../../../lib/libipb_algorithm.a

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/homework_4.h
+string
+-
+vector
+-
+
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/src/lib/named_vector.cpp
+homework_4.h
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/src/lib/homework_4.h
+
