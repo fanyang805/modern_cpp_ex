@@ -545,6 +545,33 @@ ContinuousSubmit/fast:
 	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(MAKE) -f tests/CMakeFiles/ContinuousSubmit.dir/build.make tests/CMakeFiles/ContinuousSubmit.dir/build
 .PHONY : ContinuousSubmit/fast
 
+test_ipb_algorithm.o: test_ipb_algorithm.cpp.o
+
+.PHONY : test_ipb_algorithm.o
+
+# target to build an object file
+test_ipb_algorithm.cpp.o:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(MAKE) -f tests/CMakeFiles/hw4_test.dir/build.make tests/CMakeFiles/hw4_test.dir/test_ipb_algorithm.cpp.o
+.PHONY : test_ipb_algorithm.cpp.o
+
+test_ipb_algorithm.i: test_ipb_algorithm.cpp.i
+
+.PHONY : test_ipb_algorithm.i
+
+# target to preprocess a source file
+test_ipb_algorithm.cpp.i:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(MAKE) -f tests/CMakeFiles/hw4_test.dir/build.make tests/CMakeFiles/hw4_test.dir/test_ipb_algorithm.cpp.i
+.PHONY : test_ipb_algorithm.cpp.i
+
+test_ipb_algorithm.s: test_ipb_algorithm.cpp.s
+
+.PHONY : test_ipb_algorithm.s
+
+# target to generate assembly for a file
+test_ipb_algorithm.cpp.s:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(MAKE) -f tests/CMakeFiles/hw4_test.dir/build.make tests/CMakeFiles/hw4_test.dir/test_ipb_algorithm.cpp.s
+.PHONY : test_ipb_algorithm.cpp.s
+
 test_main.o: test_main.cpp.o
 
 .PHONY : test_main.o
@@ -636,6 +663,9 @@ help:
 	@echo "... ContinuousMemCheck"
 	@echo "... ContinuousTest"
 	@echo "... ContinuousSubmit"
+	@echo "... test_ipb_algorithm.o"
+	@echo "... test_ipb_algorithm.i"
+	@echo "... test_ipb_algorithm.s"
 	@echo "... test_main.o"
 	@echo "... test_main.i"
 	@echo "... test_main.s"

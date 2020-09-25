@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/CMakeFiles /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/src/lib/CMakeFiles/progress.marks
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(MAKE) -f CMakeFiles/Makefile2 src/lib/all
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/CMakeFiles /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/src/app/CMakeFiles/progress.marks
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(MAKE) -f CMakeFiles/Makefile2 src/lib/clean
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,12 +97,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(MAKE) -f CMakeFiles/Makefile2 src/lib/preinstall
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(MAKE) -f CMakeFiles/Makefile2 src/lib/preinstall
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -111,73 +111,46 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/lib/CMakeFiles/ipb_algorithm.dir/rule:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(MAKE) -f CMakeFiles/Makefile2 src/lib/CMakeFiles/ipb_algorithm.dir/rule
-.PHONY : src/lib/CMakeFiles/ipb_algorithm.dir/rule
+src/app/CMakeFiles/test_alg.dir/rule:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(MAKE) -f CMakeFiles/Makefile2 src/app/CMakeFiles/test_alg.dir/rule
+.PHONY : src/app/CMakeFiles/test_alg.dir/rule
 
 # Convenience name for target.
-ipb_algorithm: src/lib/CMakeFiles/ipb_algorithm.dir/rule
+test_alg: src/app/CMakeFiles/test_alg.dir/rule
 
-.PHONY : ipb_algorithm
+.PHONY : test_alg
 
 # fast build rule for target.
-ipb_algorithm/fast:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(MAKE) -f src/lib/CMakeFiles/ipb_algorithm.dir/build.make src/lib/CMakeFiles/ipb_algorithm.dir/build
-.PHONY : ipb_algorithm/fast
+test_alg/fast:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(MAKE) -f src/app/CMakeFiles/test_alg.dir/build.make src/app/CMakeFiles/test_alg.dir/build
+.PHONY : test_alg/fast
 
-algs.o: algs.cpp.o
+test_alg.o: test_alg.cpp.o
 
-.PHONY : algs.o
-
-# target to build an object file
-algs.cpp.o:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(MAKE) -f src/lib/CMakeFiles/ipb_algorithm.dir/build.make src/lib/CMakeFiles/ipb_algorithm.dir/algs.cpp.o
-.PHONY : algs.cpp.o
-
-algs.i: algs.cpp.i
-
-.PHONY : algs.i
-
-# target to preprocess a source file
-algs.cpp.i:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(MAKE) -f src/lib/CMakeFiles/ipb_algorithm.dir/build.make src/lib/CMakeFiles/ipb_algorithm.dir/algs.cpp.i
-.PHONY : algs.cpp.i
-
-algs.s: algs.cpp.s
-
-.PHONY : algs.s
-
-# target to generate assembly for a file
-algs.cpp.s:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(MAKE) -f src/lib/CMakeFiles/ipb_algorithm.dir/build.make src/lib/CMakeFiles/ipb_algorithm.dir/algs.cpp.s
-.PHONY : algs.cpp.s
-
-named_vector.o: named_vector.cpp.o
-
-.PHONY : named_vector.o
+.PHONY : test_alg.o
 
 # target to build an object file
-named_vector.cpp.o:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(MAKE) -f src/lib/CMakeFiles/ipb_algorithm.dir/build.make src/lib/CMakeFiles/ipb_algorithm.dir/named_vector.cpp.o
-.PHONY : named_vector.cpp.o
+test_alg.cpp.o:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(MAKE) -f src/app/CMakeFiles/test_alg.dir/build.make src/app/CMakeFiles/test_alg.dir/test_alg.cpp.o
+.PHONY : test_alg.cpp.o
 
-named_vector.i: named_vector.cpp.i
+test_alg.i: test_alg.cpp.i
 
-.PHONY : named_vector.i
+.PHONY : test_alg.i
 
 # target to preprocess a source file
-named_vector.cpp.i:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(MAKE) -f src/lib/CMakeFiles/ipb_algorithm.dir/build.make src/lib/CMakeFiles/ipb_algorithm.dir/named_vector.cpp.i
-.PHONY : named_vector.cpp.i
+test_alg.cpp.i:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(MAKE) -f src/app/CMakeFiles/test_alg.dir/build.make src/app/CMakeFiles/test_alg.dir/test_alg.cpp.i
+.PHONY : test_alg.cpp.i
 
-named_vector.s: named_vector.cpp.s
+test_alg.s: test_alg.cpp.s
 
-.PHONY : named_vector.s
+.PHONY : test_alg.s
 
 # target to generate assembly for a file
-named_vector.cpp.s:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(MAKE) -f src/lib/CMakeFiles/ipb_algorithm.dir/build.make src/lib/CMakeFiles/ipb_algorithm.dir/named_vector.cpp.s
-.PHONY : named_vector.cpp.s
+test_alg.cpp.s:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build && $(MAKE) -f src/app/CMakeFiles/test_alg.dir/build.make src/app/CMakeFiles/test_alg.dir/test_alg.cpp.s
+.PHONY : test_alg.cpp.s
 
 # Help Target
 help:
@@ -187,13 +160,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... ipb_algorithm"
-	@echo "... algs.o"
-	@echo "... algs.i"
-	@echo "... algs.s"
-	@echo "... named_vector.o"
-	@echo "... named_vector.i"
-	@echo "... named_vector.s"
+	@echo "... test_alg"
+	@echo "... test_alg.o"
+	@echo "... test_alg.i"
+	@echo "... test_alg.s"
 .PHONY : help
 
 

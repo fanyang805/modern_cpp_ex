@@ -1,9 +1,13 @@
-find_package(Catch2 REQUIRED)
+# find_package(Catch2 REQUIRED)
 
-add_executable(test_vector test_named_vector.cpp)
+# add_executable(test_vector test_named_vector.cpp)
 
-target_link_libraries(test_vector ipb_algorithm Catch2::Catch2)
+# target_link_libraries(test_vector ipb_algorithm Catch2::Catch2)
 
-include(CTest)
-include(Catch)
-catch_discover_tests(test_vector)
+# include(CTest)
+# include(Catch)
+# catch_discover_tests(test_vector)
+
+add_executable(test_alg test_alg.cpp)
+
+target_link_libraries(test_alg ipb_algorithm)

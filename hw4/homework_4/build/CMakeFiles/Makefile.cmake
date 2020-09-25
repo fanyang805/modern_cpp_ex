@@ -14,6 +14,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/feature_tests.c"
   "CMakeFiles/feature_tests.cxx"
   "../src/CMakeLists.txt"
+  "../src/app/CMakeLists.txt"
   "../src/lib/CMakeLists.txt"
   "../tests/CMakeLists.txt"
   "/usr/local/lib/cmake/Catch2/Catch.cmake"
@@ -127,12 +128,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/lib/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/app/CMakeFiles/CMakeDirectoryInformation.cmake"
   "tests/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/lib/CMakeFiles/ipb_algorithm.dir/DependInfo.cmake"
+  "src/app/CMakeFiles/test_alg.dir/DependInfo.cmake"
   "tests/CMakeFiles/NightlyMemCheck.dir/DependInfo.cmake"
   "tests/CMakeFiles/NightlyTest.dir/DependInfo.cmake"
   "tests/CMakeFiles/ContinuousConfigure.dir/DependInfo.cmake"

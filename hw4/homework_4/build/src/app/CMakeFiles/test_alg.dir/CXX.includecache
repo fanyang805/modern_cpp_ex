@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/homework_4.h
+string
+-
+vector
+-
+
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/src/app/test_alg.cpp
+homework_4.h
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/src/app/homework_4.h
+algorithm
+-
+iostream
+-
+numeric
+-
+vector
+-
+

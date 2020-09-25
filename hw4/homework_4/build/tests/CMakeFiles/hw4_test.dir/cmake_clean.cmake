@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hw4_test.dir/test_named_vector.cpp.o"
+  "CMakeFiles/hw4_test.dir/test_ipb_algorithm.cpp.o"
   "CMakeFiles/hw4_test.dir/test_main.cpp.o"
   "../../bin/hw4_test.pdb"
   "../../bin/hw4_test"

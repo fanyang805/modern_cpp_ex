@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ipb_algorithm.dir/named_vector.cpp.o"
+  "CMakeFiles/ipb_algorithm.dir/algs.cpp.o"
   "../../../lib/libipb_algorithm.pdb"
   "../../../lib/libipb_algorithm.a"
 )

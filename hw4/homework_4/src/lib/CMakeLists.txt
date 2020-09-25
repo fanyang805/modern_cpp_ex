@@ -1,1 +1,1 @@
-add_library(ipb_algorithm named_vector.cpp)
+add_library(ipb_algorithm named_vector.cpp algs.cpp)

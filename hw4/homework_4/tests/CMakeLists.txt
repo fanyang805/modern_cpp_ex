@@ -3,12 +3,12 @@ include(CTest)
 include(Catch)
 
 set(TEST_BINARY ${PROJECT_NAME}_test)
-# add_executable(${TEST_BINARY}
-#                test_named_vector.cpp
-#                test_ipb_algorithm.cpp
-#                test_main.cpp)
+add_executable(${TEST_BINARY}
+               test_named_vector.cpp
+               test_ipb_algorithm.cpp
+               test_main.cpp)
 
-add_executable(${TEST_BINARY} test_named_vector.cpp test_main.cpp)
+# add_executable(${TEST_BINARY} test_ipb_algorithm.cpp)
 
 
 target_link_libraries(${TEST_BINARY} ipb_algorithm Catch2::Catch2)

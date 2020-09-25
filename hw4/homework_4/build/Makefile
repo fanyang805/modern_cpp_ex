@@ -124,6 +124,19 @@ ipb_algorithm/fast:
 .PHONY : ipb_algorithm/fast
 
 #=============================================================================
+# Target rules for targets named test_alg
+
+# Build rule for target.
+test_alg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_alg
+.PHONY : test_alg
+
+# fast build rule for target.
+test_alg/fast:
+	$(MAKE) -f src/app/CMakeFiles/test_alg.dir/build.make src/app/CMakeFiles/test_alg.dir/build
+.PHONY : test_alg/fast
+
+#=============================================================================
 # Target rules for targets named NightlyMemCheck
 
 # Build rule for target.
@@ -509,6 +522,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ipb_algorithm"
+	@echo "... test_alg"
 	@echo "... NightlyMemCheck"
 	@echo "... NightlyTest"
 	@echo "... ContinuousConfigure"

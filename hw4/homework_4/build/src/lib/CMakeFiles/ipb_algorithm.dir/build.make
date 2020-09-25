@@ -81,17 +81,43 @@ src/lib/CMakeFiles/ipb_algorithm.dir/named_vector.cpp.o.provides: src/lib/CMakeF
 src/lib/CMakeFiles/ipb_algorithm.dir/named_vector.cpp.o.provides.build: src/lib/CMakeFiles/ipb_algorithm.dir/named_vector.cpp.o
 
 
+src/lib/CMakeFiles/ipb_algorithm.dir/algs.cpp.o: src/lib/CMakeFiles/ipb_algorithm.dir/flags.make
+src/lib/CMakeFiles/ipb_algorithm.dir/algs.cpp.o: ../src/lib/algs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/lib/CMakeFiles/ipb_algorithm.dir/algs.cpp.o"
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/src/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ipb_algorithm.dir/algs.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/src/lib/algs.cpp
+
+src/lib/CMakeFiles/ipb_algorithm.dir/algs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ipb_algorithm.dir/algs.cpp.i"
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/src/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/src/lib/algs.cpp > CMakeFiles/ipb_algorithm.dir/algs.cpp.i
+
+src/lib/CMakeFiles/ipb_algorithm.dir/algs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ipb_algorithm.dir/algs.cpp.s"
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/src/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/src/lib/algs.cpp -o CMakeFiles/ipb_algorithm.dir/algs.cpp.s
+
+src/lib/CMakeFiles/ipb_algorithm.dir/algs.cpp.o.requires:
+
+.PHONY : src/lib/CMakeFiles/ipb_algorithm.dir/algs.cpp.o.requires
+
+src/lib/CMakeFiles/ipb_algorithm.dir/algs.cpp.o.provides: src/lib/CMakeFiles/ipb_algorithm.dir/algs.cpp.o.requires
+	$(MAKE) -f src/lib/CMakeFiles/ipb_algorithm.dir/build.make src/lib/CMakeFiles/ipb_algorithm.dir/algs.cpp.o.provides.build
+.PHONY : src/lib/CMakeFiles/ipb_algorithm.dir/algs.cpp.o.provides
+
+src/lib/CMakeFiles/ipb_algorithm.dir/algs.cpp.o.provides.build: src/lib/CMakeFiles/ipb_algorithm.dir/algs.cpp.o
+
+
 # Object files for target ipb_algorithm
 ipb_algorithm_OBJECTS = \
-"CMakeFiles/ipb_algorithm.dir/named_vector.cpp.o"
+"CMakeFiles/ipb_algorithm.dir/named_vector.cpp.o" \
+"CMakeFiles/ipb_algorithm.dir/algs.cpp.o"
 
 # External object files for target ipb_algorithm
 ipb_algorithm_EXTERNAL_OBJECTS =
 
 ../lib/libipb_algorithm.a: src/lib/CMakeFiles/ipb_algorithm.dir/named_vector.cpp.o
+../lib/libipb_algorithm.a: src/lib/CMakeFiles/ipb_algorithm.dir/algs.cpp.o
 ../lib/libipb_algorithm.a: src/lib/CMakeFiles/ipb_algorithm.dir/build.make
 ../lib/libipb_algorithm.a: src/lib/CMakeFiles/ipb_algorithm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/libipb_algorithm.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../../../lib/libipb_algorithm.a"
 	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/src/lib && $(CMAKE_COMMAND) -P CMakeFiles/ipb_algorithm.dir/cmake_clean_target.cmake
 	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/src/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ipb_algorithm.dir/link.txt --verbose=$(VERBOSE)
 
@@ -101,6 +127,7 @@ src/lib/CMakeFiles/ipb_algorithm.dir/build: ../lib/libipb_algorithm.a
 .PHONY : src/lib/CMakeFiles/ipb_algorithm.dir/build
 
 src/lib/CMakeFiles/ipb_algorithm.dir/requires: src/lib/CMakeFiles/ipb_algorithm.dir/named_vector.cpp.o.requires
+src/lib/CMakeFiles/ipb_algorithm.dir/requires: src/lib/CMakeFiles/ipb_algorithm.dir/algs.cpp.o.requires
 
 .PHONY : src/lib/CMakeFiles/ipb_algorithm.dir/requires
 

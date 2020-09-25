@@ -1,4 +1,4 @@
-# Install script for directory: /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/src
+# Install script for directory: /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/src/app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,12 +35,5 @@ endif()
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/src/lib/cmake_install.cmake")
-  include("/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/src/app/cmake_install.cmake")
-
 endif()
 

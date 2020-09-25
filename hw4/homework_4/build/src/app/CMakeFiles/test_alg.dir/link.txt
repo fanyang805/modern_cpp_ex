@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -O3   CMakeFiles/test_alg.dir/test_alg.cpp.o  -o ../../../bin/test_alg ../../../lib/libipb_algorithm.a 

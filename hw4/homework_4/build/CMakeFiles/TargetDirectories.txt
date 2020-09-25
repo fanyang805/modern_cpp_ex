@@ -5,6 +5,9 @@
 /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/src/lib/CMakeFiles/rebuild_cache.dir
 /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/src/lib/CMakeFiles/edit_cache.dir
 /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/src/lib/CMakeFiles/ipb_algorithm.dir
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/src/app/CMakeFiles/rebuild_cache.dir
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/src/app/CMakeFiles/edit_cache.dir
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/src/app/CMakeFiles/test_alg.dir
 /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/tests/CMakeFiles/rebuild_cache.dir
 /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/tests/CMakeFiles/edit_cache.dir
 /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/tests/CMakeFiles/NightlyMemCheck.dir
