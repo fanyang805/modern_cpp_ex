@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../results/lib/libmat_serialization.a CMakeFiles/mat_serialization.dir/serialize.cpp.o
-/usr/bin/ranlib ../../../results/lib/libmat_serialization.a
