@@ -1,32 +1,32 @@
 [
 {
   "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/src/lib",
-  "command": "/usr/bin/c++   -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/lib  -Wall -Wextra -O3   -std=gnu++1z -o CMakeFiles/ipb_algorithm.dir/named_vector.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/src/lib/named_vector.cpp",
+  "command": "/usr/bin/clang++-10  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/lib -Wall -Wextra -O3 -std=gnu++17 -o CMakeFiles/ipb_algorithm.dir/named_vector.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/src/lib/named_vector.cpp",
   "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/src/lib/named_vector.cpp"
 },
 {
   "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/src/lib",
-  "command": "/usr/bin/c++   -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/lib  -Wall -Wextra -O3   -std=gnu++1z -o CMakeFiles/ipb_algorithm.dir/algs.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/src/lib/algs.cpp",
+  "command": "/usr/bin/clang++-10  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/lib -Wall -Wextra -O3 -std=gnu++17 -o CMakeFiles/ipb_algorithm.dir/algs.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/src/lib/algs.cpp",
   "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/src/lib/algs.cpp"
 },
 {
   "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/src/app",
-  "command": "/usr/bin/c++   -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/lib  -Wall -Wextra -O3   -std=gnu++1z -o CMakeFiles/test_alg.dir/test_alg.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/src/app/test_alg.cpp",
+  "command": "/usr/bin/clang++-10  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/lib -Wall -Wextra -O3 -std=gnu++17 -o CMakeFiles/test_alg.dir/test_alg.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/src/app/test_alg.cpp",
   "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/src/app/test_alg.cpp"
 },
 {
   "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/tests",
-  "command": "/usr/bin/c++   -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/lib -isystem /usr/local/include  -Wall -Wextra -O3   -std=gnu++1z -o CMakeFiles/hw4_test.dir/test_named_vector.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/tests/test_named_vector.cpp",
+  "command": "/usr/bin/clang++-10  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/lib -Wall -Wextra -O3 -std=gnu++17 -o CMakeFiles/hw4_test.dir/test_named_vector.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/tests/test_named_vector.cpp",
   "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/tests/test_named_vector.cpp"
 },
 {
   "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/tests",
-  "command": "/usr/bin/c++   -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/lib -isystem /usr/local/include  -Wall -Wextra -O3   -std=gnu++1z -o CMakeFiles/hw4_test.dir/test_ipb_algorithm.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/tests/test_ipb_algorithm.cpp",
+  "command": "/usr/bin/clang++-10  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/lib -Wall -Wextra -O3 -std=gnu++17 -o CMakeFiles/hw4_test.dir/test_ipb_algorithm.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/tests/test_ipb_algorithm.cpp",
   "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/tests/test_ipb_algorithm.cpp"
 },
 {
   "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/build/tests",
-  "command": "/usr/bin/c++   -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/lib -isystem /usr/local/include  -Wall -Wextra -O3   -std=gnu++1z -o CMakeFiles/hw4_test.dir/test_main.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/tests/test_main.cpp",
+  "command": "/usr/bin/clang++-10  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/lib -Wall -Wextra -O3 -std=gnu++17 -o CMakeFiles/hw4_test.dir/test_main.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/tests/test_main.cpp",
   "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw4/homework_4/tests/test_main.cpp"
 }
 ]

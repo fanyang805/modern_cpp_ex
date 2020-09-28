@@ -19,8 +19,8 @@ public:
   // member functions
   bool empty() const { return my_name.empty() || my_vector.empty(); };
   std::string &name() { return my_name; };
-  std::string name() const { return my_name; };
-  std::vector<T> vector() const { return my_vector; };
+  const std::string &name() const { return my_name; };
+  const std::vector<T> &vector() const { return my_vector; };
   std::vector<T> &vector() { return my_vector; };
   size_t size() const { return my_name.size() + my_vector.size(); };
   size_t capacity() const { return my_vector.capacity(); };

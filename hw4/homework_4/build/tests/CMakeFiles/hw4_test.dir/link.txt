@@ -1,1 +1,1 @@
-/usr/bin/c++  -Wall -Wextra -O3   CMakeFiles/hw4_test.dir/test_named_vector.cpp.o CMakeFiles/hw4_test.dir/test_ipb_algorithm.cpp.o CMakeFiles/hw4_test.dir/test_main.cpp.o  -o ../../bin/hw4_test ../../lib/libipb_algorithm.a 
+/usr/bin/clang++-10 -Wall -Wextra -O3 CMakeFiles/hw4_test.dir/test_named_vector.cpp.o CMakeFiles/hw4_test.dir/test_ipb_algorithm.cpp.o CMakeFiles/hw4_test.dir/test_main.cpp.o -o ../../bin/hw4_test  ../../lib/libipb_algorithm.a 

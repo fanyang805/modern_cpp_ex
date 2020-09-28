@@ -14,7 +14,6 @@ set(CMAKE_CXX_COMPILER_ID "Clang")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
   "../lib"
-  "/usr/local/include"
   )
 
 # Targets to which this target links.

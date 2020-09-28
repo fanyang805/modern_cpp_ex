@@ -1,9 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/hw4_test.dir/test_named_vector.cpp.o"
+  "../../bin/hw4_test"
+  "../../bin/hw4_test.pdb"
   "CMakeFiles/hw4_test.dir/test_ipb_algorithm.cpp.o"
   "CMakeFiles/hw4_test.dir/test_main.cpp.o"
-  "../../bin/hw4_test.pdb"
-  "../../bin/hw4_test"
+  "CMakeFiles/hw4_test.dir/test_named_vector.cpp.o"
+  "hw4_test_tests-b12d07c.cmake"
 )
 
 # Per-language clean rules from dependency scanning.
