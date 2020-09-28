@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wall -Wextra CMakeFiles/write_binary.dir/write_binary.cpp.o -o ../../../results/bin/write_binary 

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/src/app/write_binary.cpp
+fstream
+-
+iostream
+-
+string
+-
+vector
+-
+

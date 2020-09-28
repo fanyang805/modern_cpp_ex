@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wall -Wextra CMakeFiles/read_binary.dir/read_binary.cpp.o -o ../../../results/bin/read_binary 

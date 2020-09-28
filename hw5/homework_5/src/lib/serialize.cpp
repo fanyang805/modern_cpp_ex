@@ -13,8 +13,9 @@ void Serialize(const cv::Mat &m, const std::string &filename) {
   int row_num = m.rows;
   int col_num = m.cols;
   int type_int = m.type();
-  std::cout << row_num << " " << col_num << std::endl;
+  // std::cout << row_num << " " << col_num << std::endl;
   // Get the filename without path
+  fs::create_directories(fs::path(filename).remove_filename());
   std::ofstream write_bin(filename, std::ios_base::out | std::ios_base::binary);
 
   // Use size_t num_byte = m.step[0] * m.rows for more general case
@@ -36,7 +37,7 @@ cv::Mat Deserialize(const std::string &filename) {
   read_bin.read(reinterpret_cast<char *>(&row_num), sizeof(int));
   read_bin.read(reinterpret_cast<char *>(&col_num), sizeof(int));
   read_bin.read(reinterpret_cast<char *>(&type_int), sizeof(int));
-  std::cout << row_num << " " << col_num << std::endl;
+  // std::cout << row_num << " " << col_num << std::endl;
   cv::Mat filem = cv::Mat::zeros(row_num, col_num, type_int);
   read_bin.read(reinterpret_cast<char *>(filem.data),
                 filem.total() * filem.elemSize());

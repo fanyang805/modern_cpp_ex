@@ -32,3 +32,4 @@ else()
 endif(OpenCV_FOUND)
 
 add_subdirectory(src)
+add_subdirectory(tests)
