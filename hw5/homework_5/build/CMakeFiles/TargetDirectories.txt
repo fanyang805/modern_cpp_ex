@@ -1,0 +1,12 @@
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build/CMakeFiles/rebuild_cache.dir
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build/CMakeFiles/edit_cache.dir
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build/src/CMakeFiles/rebuild_cache.dir
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build/src/CMakeFiles/edit_cache.dir
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build/src/lib/CMakeFiles/rebuild_cache.dir
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build/src/lib/CMakeFiles/edit_cache.dir
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build/src/lib/CMakeFiles/mat_serialization.dir
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build/src/app/CMakeFiles/rebuild_cache.dir
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build/src/app/CMakeFiles/edit_cache.dir
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build/src/app/CMakeFiles/test_binary.dir
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build/src/app/CMakeFiles/read_binary.dir
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build/src/app/CMakeFiles/write_binary.dir

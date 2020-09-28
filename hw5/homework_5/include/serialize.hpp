@@ -17,7 +17,7 @@ namespace ipb::serialization {
  * @param m        The input cv::Mat you want to serialize.
  * @param filename The filename of the file where the cv::Mat will be written.
  */
-void Serialize(const cv::Mat& m, const std::string& filename);
+void Serialize(const cv::Mat &m, const std::string &filename);
 
 /**
  * @brief Reads a binary file representing a cv::Mat type and outputs the
@@ -26,8 +26,8 @@ void Serialize(const cv::Mat& m, const std::string& filename);
  * @param filename The binary file you want to read
  * @return cv::Mat The cv::Mat created from the binary file
  */
-cv::Mat Deserialize(const std::string& filename);
+cv::Mat Deserialize(const std::string &filename);
 
-}  // namespace ipb::serialization
+} // namespace ipb::serialization
 
-#endif  // SERIALIZE_HPP_
+#endif // SERIALIZE_HPP_

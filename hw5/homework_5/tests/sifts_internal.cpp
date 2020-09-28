@@ -17,10 +17,10 @@
 using std::string;
 using std::vector;
 
-using cv::xfeatures2d::SiftDescriptorExtractor;
-using cv::xfeatures2d::SiftFeatureDetector;
+using cv::SiftDescriptorExtractor;
+using cv::SiftFeatureDetector;
 
-std::tuple<cv::Mat, cv::Mat> ComputeSifts(const string& fileName) {
+std::tuple<cv::Mat, cv::Mat> ComputeSifts(const string &fileName) {
   const cv::Mat kInput = cv::imread(fileName, cv::IMREAD_GRAYSCALE);
 
   // detect key points
