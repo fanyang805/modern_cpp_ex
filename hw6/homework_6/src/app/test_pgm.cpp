@@ -1,5 +1,6 @@
 #include "Image.hpp"
 #include <iostream>
+using igg::Image;
 
 int main() {
   Image img;

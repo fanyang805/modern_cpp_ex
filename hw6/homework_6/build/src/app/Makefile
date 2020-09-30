@@ -130,6 +130,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/app/CMakeFiles/test_scale.dir/rule:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/CMakeFiles/test_scale.dir/rule
+.PHONY : src/app/CMakeFiles/test_scale.dir/rule
+
+# Convenience name for target.
+test_scale: src/app/CMakeFiles/test_scale.dir/rule
+
+.PHONY : test_scale
+
+# fast build rule for target.
+test_scale/fast:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_scale.dir/build.make src/app/CMakeFiles/test_scale.dir/build
+.PHONY : test_scale/fast
+
+# Convenience name for target.
 src/app/CMakeFiles/test_hist.dir/rule:
 	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/CMakeFiles/test_hist.dir/rule
 .PHONY : src/app/CMakeFiles/test_hist.dir/rule
@@ -255,6 +270,33 @@ test_pgm.cpp.s:
 	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_pgm.dir/build.make src/app/CMakeFiles/test_pgm.dir/test_pgm.cpp.s
 .PHONY : test_pgm.cpp.s
 
+test_scale.o: test_scale.cpp.o
+
+.PHONY : test_scale.o
+
+# target to build an object file
+test_scale.cpp.o:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_scale.dir/build.make src/app/CMakeFiles/test_scale.dir/test_scale.cpp.o
+.PHONY : test_scale.cpp.o
+
+test_scale.i: test_scale.cpp.i
+
+.PHONY : test_scale.i
+
+# target to preprocess a source file
+test_scale.cpp.i:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_scale.dir/build.make src/app/CMakeFiles/test_scale.dir/test_scale.cpp.i
+.PHONY : test_scale.cpp.i
+
+test_scale.s: test_scale.cpp.s
+
+.PHONY : test_scale.s
+
+# target to generate assembly for a file
+test_scale.cpp.s:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_scale.dir/build.make src/app/CMakeFiles/test_scale.dir/test_scale.cpp.s
+.PHONY : test_scale.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -266,6 +308,7 @@ help:
 	@echo "... test_hist"
 	@echo "... test_init"
 	@echo "... test_pgm"
+	@echo "... test_scale"
 	@echo "... test_hist.o"
 	@echo "... test_hist.i"
 	@echo "... test_hist.s"
@@ -275,6 +318,9 @@ help:
 	@echo "... test_pgm.o"
 	@echo "... test_pgm.i"
 	@echo "... test_pgm.s"
+	@echo "... test_scale.o"
+	@echo "... test_scale.i"
+	@echo "... test_scale.s"
 .PHONY : help
 
 

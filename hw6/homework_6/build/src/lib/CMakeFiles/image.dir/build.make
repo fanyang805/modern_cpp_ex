@@ -79,15 +79,15 @@ include src/lib/CMakeFiles/image.dir/flags.make
 src/lib/CMakeFiles/image.dir/Image.cpp.o: src/lib/CMakeFiles/image.dir/flags.make
 src/lib/CMakeFiles/image.dir/Image.cpp.o: ../src/lib/Image.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/lib/CMakeFiles/image.dir/Image.cpp.o"
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/lib && /usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image.dir/Image.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib/Image.cpp
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image.dir/Image.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib/Image.cpp
 
 src/lib/CMakeFiles/image.dir/Image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image.dir/Image.cpp.i"
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/lib && /usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib/Image.cpp > CMakeFiles/image.dir/Image.cpp.i
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib/Image.cpp > CMakeFiles/image.dir/Image.cpp.i
 
 src/lib/CMakeFiles/image.dir/Image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image.dir/Image.cpp.s"
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/lib && /usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib/Image.cpp -o CMakeFiles/image.dir/Image.cpp.s
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib/Image.cpp -o CMakeFiles/image.dir/Image.cpp.s
 
 # Object files for target image
 image_OBJECTS = \

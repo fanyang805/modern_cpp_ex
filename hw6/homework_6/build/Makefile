@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named hw6_test
+
+# Build rule for target.
+hw6_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hw6_test
+.PHONY : hw6_test
+
+# fast build rule for target.
+hw6_test/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/hw6_test.dir/build.make tests/CMakeFiles/hw6_test.dir/build
+.PHONY : hw6_test/fast
+
+#=============================================================================
 # Target rules for targets named iotools
 
 # Build rule for target.
@@ -154,6 +167,19 @@ image: cmake_check_build_system
 image/fast:
 	$(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/image.dir/build.make src/lib/CMakeFiles/image.dir/build
 .PHONY : image/fast
+
+#=============================================================================
+# Target rules for targets named test_scale
+
+# Build rule for target.
+test_scale: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_scale
+.PHONY : test_scale
+
+# fast build rule for target.
+test_scale/fast:
+	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_scale.dir/build.make src/app/CMakeFiles/test_scale.dir/build
+.PHONY : test_scale/fast
 
 #=============================================================================
 # Target rules for targets named test_hist
@@ -202,11 +228,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... hw6_test"
 	@echo "... image"
 	@echo "... iotools"
 	@echo "... test_hist"
 	@echo "... test_init"
 	@echo "... test_pgm"
+	@echo "... test_scale"
 .PHONY : help
 
 

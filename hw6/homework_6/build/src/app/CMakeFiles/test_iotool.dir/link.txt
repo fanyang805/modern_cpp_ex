@@ -1,1 +1,0 @@
-/usr/bin/clang++-10 -Wall -Wextra -g -O0 CMakeFiles/test_iotool.dir/test_iotools.cpp.o -o ../../../results/bin/test_iotool  ../../../results/lib/libiotools.a 

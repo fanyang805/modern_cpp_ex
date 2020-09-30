@@ -1,5 +1,8 @@
 /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/CMakeFiles/rebuild_cache.dir
 /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/CMakeFiles/edit_cache.dir
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/tests/CMakeFiles/rebuild_cache.dir
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/tests/CMakeFiles/edit_cache.dir
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/tests/CMakeFiles/hw6_test.dir
 /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/io_tools/CMakeFiles/rebuild_cache.dir
 /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/io_tools/CMakeFiles/edit_cache.dir
 /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/io_tools/CMakeFiles/iotools.dir
@@ -10,6 +13,7 @@
 /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/lib/CMakeFiles/image.dir
 /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/app/CMakeFiles/rebuild_cache.dir
 /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/app/CMakeFiles/edit_cache.dir
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/app/CMakeFiles/test_scale.dir
 /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/app/CMakeFiles/test_hist.dir
 /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/app/CMakeFiles/test_pgm.dir
 /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/app/CMakeFiles/test_init.dir

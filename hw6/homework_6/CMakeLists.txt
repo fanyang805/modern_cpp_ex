@@ -21,6 +21,6 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 include_directories(${CMAKE_SOURCE_DIR}/src/lib)
 include_directories(${CMAKE_SOURCE_DIR}/io_tools)
 
-# add_subdirectory(tests)
+add_subdirectory(tests)
 add_subdirectory(io_tools)
 add_subdirectory(src)

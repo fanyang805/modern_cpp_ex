@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../bin/hw6_test"
-  "../../bin/hw6_test.pdb"
+  "../../results/bin/hw6_test"
+  "../../results/bin/hw6_test.pdb"
   "CMakeFiles/hw6_test.dir/test_from_file.cpp.o"
   "CMakeFiles/hw6_test.dir/test_histogram.cpp.o"
   "CMakeFiles/hw6_test.dir/test_init.cpp.o"

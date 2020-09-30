@@ -79,15 +79,15 @@ include src/app/CMakeFiles/test_pgm.dir/flags.make
 src/app/CMakeFiles/test_pgm.dir/test_pgm.cpp.o: src/app/CMakeFiles/test_pgm.dir/flags.make
 src/app/CMakeFiles/test_pgm.dir/test_pgm.cpp.o: ../src/app/test_pgm.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/app/CMakeFiles/test_pgm.dir/test_pgm.cpp.o"
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/app && /usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_pgm.dir/test_pgm.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/test_pgm.cpp
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_pgm.dir/test_pgm.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/test_pgm.cpp
 
 src/app/CMakeFiles/test_pgm.dir/test_pgm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_pgm.dir/test_pgm.cpp.i"
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/app && /usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/test_pgm.cpp > CMakeFiles/test_pgm.dir/test_pgm.cpp.i
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/test_pgm.cpp > CMakeFiles/test_pgm.dir/test_pgm.cpp.i
 
 src/app/CMakeFiles/test_pgm.dir/test_pgm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_pgm.dir/test_pgm.cpp.s"
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/app && /usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/test_pgm.cpp -o CMakeFiles/test_pgm.dir/test_pgm.cpp.s
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/test_pgm.cpp -o CMakeFiles/test_pgm.dir/test_pgm.cpp.s
 
 # Object files for target test_pgm
 test_pgm_OBJECTS = \

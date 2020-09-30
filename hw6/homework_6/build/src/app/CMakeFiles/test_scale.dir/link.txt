@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wall -Wextra -g -O0 CMakeFiles/test_scale.dir/test_scale.cpp.o -o ../../../results/bin/test_scale  ../../../results/lib/libimage.a ../../../results/lib/libiotools.a 
