@@ -130,21 +130,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/app/CMakeFiles/test_convert.dir/rule:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/CMakeFiles/test_convert.dir/rule
-.PHONY : src/app/CMakeFiles/test_convert.dir/rule
-
-# Convenience name for target.
-test_convert: src/app/CMakeFiles/test_convert.dir/rule
-
-.PHONY : test_convert
-
-# fast build rule for target.
-test_convert/fast:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_convert.dir/build.make src/app/CMakeFiles/test_convert.dir/build
-.PHONY : test_convert/fast
-
-# Convenience name for target.
 src/app/CMakeFiles/test_binary.dir/rule:
 	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/CMakeFiles/test_binary.dir/rule
 .PHONY : src/app/CMakeFiles/test_binary.dir/rule
@@ -160,61 +145,19 @@ test_binary/fast:
 .PHONY : test_binary/fast
 
 # Convenience name for target.
-src/app/CMakeFiles/read_binary.dir/rule:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/CMakeFiles/read_binary.dir/rule
-.PHONY : src/app/CMakeFiles/read_binary.dir/rule
+src/app/CMakeFiles/test_convert.dir/rule:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/CMakeFiles/test_convert.dir/rule
+.PHONY : src/app/CMakeFiles/test_convert.dir/rule
 
 # Convenience name for target.
-read_binary: src/app/CMakeFiles/read_binary.dir/rule
+test_convert: src/app/CMakeFiles/test_convert.dir/rule
 
-.PHONY : read_binary
+.PHONY : test_convert
 
 # fast build rule for target.
-read_binary/fast:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/read_binary.dir/build.make src/app/CMakeFiles/read_binary.dir/build
-.PHONY : read_binary/fast
-
-# Convenience name for target.
-src/app/CMakeFiles/write_binary.dir/rule:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/CMakeFiles/write_binary.dir/rule
-.PHONY : src/app/CMakeFiles/write_binary.dir/rule
-
-# Convenience name for target.
-write_binary: src/app/CMakeFiles/write_binary.dir/rule
-
-.PHONY : write_binary
-
-# fast build rule for target.
-write_binary/fast:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/write_binary.dir/build.make src/app/CMakeFiles/write_binary.dir/build
-.PHONY : write_binary/fast
-
-read_binary.o: read_binary.cpp.o
-
-.PHONY : read_binary.o
-
-# target to build an object file
-read_binary.cpp.o:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/read_binary.dir/build.make src/app/CMakeFiles/read_binary.dir/read_binary.cpp.o
-.PHONY : read_binary.cpp.o
-
-read_binary.i: read_binary.cpp.i
-
-.PHONY : read_binary.i
-
-# target to preprocess a source file
-read_binary.cpp.i:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/read_binary.dir/build.make src/app/CMakeFiles/read_binary.dir/read_binary.cpp.i
-.PHONY : read_binary.cpp.i
-
-read_binary.s: read_binary.cpp.s
-
-.PHONY : read_binary.s
-
-# target to generate assembly for a file
-read_binary.cpp.s:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/read_binary.dir/build.make src/app/CMakeFiles/read_binary.dir/read_binary.cpp.s
-.PHONY : read_binary.cpp.s
+test_convert/fast:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_convert.dir/build.make src/app/CMakeFiles/test_convert.dir/build
+.PHONY : test_convert/fast
 
 test_binary.o: test_binary.cpp.o
 
@@ -270,33 +213,6 @@ test_convert.cpp.s:
 	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_convert.dir/build.make src/app/CMakeFiles/test_convert.dir/test_convert.cpp.s
 .PHONY : test_convert.cpp.s
 
-write_binary.o: write_binary.cpp.o
-
-.PHONY : write_binary.o
-
-# target to build an object file
-write_binary.cpp.o:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/write_binary.dir/build.make src/app/CMakeFiles/write_binary.dir/write_binary.cpp.o
-.PHONY : write_binary.cpp.o
-
-write_binary.i: write_binary.cpp.i
-
-.PHONY : write_binary.i
-
-# target to preprocess a source file
-write_binary.cpp.i:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/write_binary.dir/build.make src/app/CMakeFiles/write_binary.dir/write_binary.cpp.i
-.PHONY : write_binary.cpp.i
-
-write_binary.s: write_binary.cpp.s
-
-.PHONY : write_binary.s
-
-# target to generate assembly for a file
-write_binary.cpp.s:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/write_binary.dir/build.make src/app/CMakeFiles/write_binary.dir/write_binary.cpp.s
-.PHONY : write_binary.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -305,22 +221,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... read_binary"
 	@echo "... test_binary"
 	@echo "... test_convert"
-	@echo "... write_binary"
-	@echo "... read_binary.o"
-	@echo "... read_binary.i"
-	@echo "... read_binary.s"
 	@echo "... test_binary.o"
 	@echo "... test_binary.i"
 	@echo "... test_binary.s"
 	@echo "... test_convert.o"
 	@echo "... test_convert.i"
 	@echo "... test_convert.s"
-	@echo "... write_binary.o"
-	@echo "... write_binary.i"
-	@echo "... write_binary.s"
 .PHONY : help
 
 

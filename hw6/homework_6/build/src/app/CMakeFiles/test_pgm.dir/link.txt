@@ -1,0 +1,1 @@
+/usr/bin/clang++-10 -Wall -Wextra -g -O0 CMakeFiles/test_pgm.dir/test_pgm.cpp.o -o ../../../results/bin/test_pgm  ../../../results/lib/libimage.a ../../../results/lib/libiotools.a 

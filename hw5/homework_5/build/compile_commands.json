@@ -11,23 +11,13 @@
 },
 {
   "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build/src/app",
-  "command": "/usr/bin/c++  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/src -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/include -isystem /usr/local/include/opencv4 -Wall -Wextra -std=gnu++17 -o CMakeFiles/test_convert.dir/test_convert.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/src/app/test_convert.cpp",
-  "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/src/app/test_convert.cpp"
-},
-{
-  "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build/src/app",
   "command": "/usr/bin/c++  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/src -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/include -isystem /usr/local/include/opencv4 -Wall -Wextra -std=gnu++17 -o CMakeFiles/test_binary.dir/test_binary.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/src/app/test_binary.cpp",
   "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/src/app/test_binary.cpp"
 },
 {
   "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build/src/app",
-  "command": "/usr/bin/c++  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/src -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/include -I/usr/local/include/opencv4 -Wall -Wextra -std=gnu++17 -o CMakeFiles/read_binary.dir/read_binary.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/src/app/read_binary.cpp",
-  "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/src/app/read_binary.cpp"
-},
-{
-  "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build/src/app",
-  "command": "/usr/bin/c++  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/src -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/include -I/usr/local/include/opencv4 -Wall -Wextra -std=gnu++17 -o CMakeFiles/write_binary.dir/write_binary.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/src/app/write_binary.cpp",
-  "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/src/app/write_binary.cpp"
+  "command": "/usr/bin/c++  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/src -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/include -isystem /usr/local/include/opencv4 -Wall -Wextra -std=gnu++17 -o CMakeFiles/test_convert.dir/test_convert.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/src/app/test_convert.cpp",
+  "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/src/app/test_convert.cpp"
 },
 {
   "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw5/homework_5/build/tests",

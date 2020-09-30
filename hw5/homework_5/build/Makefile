@@ -156,19 +156,6 @@ mat_serialization/fast:
 .PHONY : mat_serialization/fast
 
 #=============================================================================
-# Target rules for targets named test_convert
-
-# Build rule for target.
-test_convert: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_convert
-.PHONY : test_convert
-
-# fast build rule for target.
-test_convert/fast:
-	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_convert.dir/build.make src/app/CMakeFiles/test_convert.dir/build
-.PHONY : test_convert/fast
-
-#=============================================================================
 # Target rules for targets named test_binary
 
 # Build rule for target.
@@ -182,30 +169,17 @@ test_binary/fast:
 .PHONY : test_binary/fast
 
 #=============================================================================
-# Target rules for targets named read_binary
+# Target rules for targets named test_convert
 
 # Build rule for target.
-read_binary: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 read_binary
-.PHONY : read_binary
+test_convert: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_convert
+.PHONY : test_convert
 
 # fast build rule for target.
-read_binary/fast:
-	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/read_binary.dir/build.make src/app/CMakeFiles/read_binary.dir/build
-.PHONY : read_binary/fast
-
-#=============================================================================
-# Target rules for targets named write_binary
-
-# Build rule for target.
-write_binary: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 write_binary
-.PHONY : write_binary
-
-# fast build rule for target.
-write_binary/fast:
-	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/write_binary.dir/build.make src/app/CMakeFiles/write_binary.dir/build
-.PHONY : write_binary/fast
+test_convert/fast:
+	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_convert.dir/build.make src/app/CMakeFiles/test_convert.dir/build
+.PHONY : test_convert/fast
 
 #=============================================================================
 # Target rules for targets named NightlyMemCheck
@@ -636,11 +610,9 @@ help:
 	@echo "... convert_dataset"
 	@echo "... hw5_test"
 	@echo "... mat_serialization"
-	@echo "... read_binary"
 	@echo "... sifts_internal"
 	@echo "... test_binary"
 	@echo "... test_convert"
-	@echo "... write_binary"
 .PHONY : help
 
 

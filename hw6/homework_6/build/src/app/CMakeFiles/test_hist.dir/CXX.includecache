@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Image.hpp
+io_tools.hpp
+../include/io_tools.hpp
+cstddef
+-
+string
+-
+vector
+-
+
+../io_tools/io_tools.hpp
+cstddef
+-
+string
+-
+vector
+-
+
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/test_hist.cpp
+Image.hpp
+/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/Image.hpp
+iostream
+-
+
