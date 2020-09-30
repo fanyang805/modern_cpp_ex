@@ -1,1 +1,1 @@
-/usr/bin/c++ -Wall -Wextra -g -O0 CMakeFiles/test_init.dir/test_init.cpp.o -o ../../../results/bin/test_init  ../../../results/lib/libimage.a ../../../results/lib/libiotools.a 
+/usr/bin/clang++-10 -Wall -Wextra -O3 CMakeFiles/test_init.dir/test_init.cpp.o -o ../../../results/bin/test_init  ../../../results/lib/libimage.a ../../../results/lib/libiotools.a 

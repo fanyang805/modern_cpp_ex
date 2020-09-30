@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "/usr/bin/cc")
+set(CMAKE_C_COMPILER "/usr/bin/clang-10")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "Clang")
 set(CMAKE_C_COMPILER_VERSION "10.0.0")

@@ -1,52 +1,52 @@
 [
 {
   "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/tests",
-  "command": "/usr/bin/c++  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/io_tools -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/hw6_test.dir/test_init.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/tests/test_init.cpp",
+  "command": "/usr/bin/clang++-10  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/io_tools -Wall -Wextra -O3 -std=gnu++17 -o CMakeFiles/hw6_test.dir/test_init.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/tests/test_init.cpp",
   "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/tests/test_init.cpp"
 },
 {
   "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/tests",
-  "command": "/usr/bin/c++  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/io_tools -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/hw6_test.dir/test_histogram.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/tests/test_histogram.cpp",
+  "command": "/usr/bin/clang++-10  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/io_tools -Wall -Wextra -O3 -std=gnu++17 -o CMakeFiles/hw6_test.dir/test_histogram.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/tests/test_histogram.cpp",
   "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/tests/test_histogram.cpp"
 },
 {
   "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/tests",
-  "command": "/usr/bin/c++  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/io_tools -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/hw6_test.dir/test_from_file.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/tests/test_from_file.cpp",
+  "command": "/usr/bin/clang++-10  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/io_tools -Wall -Wextra -O3 -std=gnu++17 -o CMakeFiles/hw6_test.dir/test_from_file.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/tests/test_from_file.cpp",
   "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/tests/test_from_file.cpp"
 },
 {
   "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/tests",
-  "command": "/usr/bin/c++  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/io_tools -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/hw6_test.dir/test_resize.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/tests/test_resize.cpp",
+  "command": "/usr/bin/clang++-10  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/io_tools -Wall -Wextra -O3 -std=gnu++17 -o CMakeFiles/hw6_test.dir/test_resize.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/tests/test_resize.cpp",
   "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/tests/test_resize.cpp"
 },
 {
   "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/io_tools",
-  "command": "/usr/bin/c++  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/io_tools -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/iotools.dir/io_tools.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/io_tools/io_tools.cpp",
+  "command": "/usr/bin/clang++-10  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/io_tools -Wall -Wextra -O3 -std=gnu++17 -o CMakeFiles/iotools.dir/io_tools.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/io_tools/io_tools.cpp",
   "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/io_tools/io_tools.cpp"
 },
 {
   "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/lib",
-  "command": "/usr/bin/c++  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/io_tools -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/image.dir/Image.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib/Image.cpp",
+  "command": "/usr/bin/clang++-10  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/io_tools -Wall -Wextra -O3 -std=gnu++17 -o CMakeFiles/image.dir/Image.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib/Image.cpp",
   "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib/Image.cpp"
 },
 {
   "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/app",
-  "command": "/usr/bin/c++  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/io_tools -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/test_scale.dir/test_scale.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/test_scale.cpp",
+  "command": "/usr/bin/clang++-10  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/io_tools -Wall -Wextra -O3 -std=gnu++17 -o CMakeFiles/test_scale.dir/test_scale.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/test_scale.cpp",
   "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/test_scale.cpp"
 },
 {
   "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/app",
-  "command": "/usr/bin/c++  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/io_tools -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/test_hist.dir/test_hist.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/test_hist.cpp",
+  "command": "/usr/bin/clang++-10  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/io_tools -Wall -Wextra -O3 -std=gnu++17 -o CMakeFiles/test_hist.dir/test_hist.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/test_hist.cpp",
   "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/test_hist.cpp"
 },
 {
   "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/app",
-  "command": "/usr/bin/c++  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/io_tools -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/test_pgm.dir/test_pgm.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/test_pgm.cpp",
+  "command": "/usr/bin/clang++-10  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/io_tools -Wall -Wextra -O3 -std=gnu++17 -o CMakeFiles/test_pgm.dir/test_pgm.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/test_pgm.cpp",
   "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/test_pgm.cpp"
 },
 {
   "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/app",
-  "command": "/usr/bin/c++  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/io_tools -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/test_init.dir/test_init.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/test_init.cpp",
+  "command": "/usr/bin/clang++-10  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/io_tools -Wall -Wextra -O3 -std=gnu++17 -o CMakeFiles/test_init.dir/test_init.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/test_init.cpp",
   "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/test_init.cpp"
 }
 ]

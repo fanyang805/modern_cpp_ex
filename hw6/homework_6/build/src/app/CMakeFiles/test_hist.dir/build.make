@@ -79,15 +79,15 @@ include src/app/CMakeFiles/test_hist.dir/flags.make
 src/app/CMakeFiles/test_hist.dir/test_hist.cpp.o: src/app/CMakeFiles/test_hist.dir/flags.make
 src/app/CMakeFiles/test_hist.dir/test_hist.cpp.o: ../src/app/test_hist.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/app/CMakeFiles/test_hist.dir/test_hist.cpp.o"
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_hist.dir/test_hist.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/test_hist.cpp
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/app && /usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_hist.dir/test_hist.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/test_hist.cpp
 
 src/app/CMakeFiles/test_hist.dir/test_hist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_hist.dir/test_hist.cpp.i"
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/test_hist.cpp > CMakeFiles/test_hist.dir/test_hist.cpp.i
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/app && /usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/test_hist.cpp > CMakeFiles/test_hist.dir/test_hist.cpp.i
 
 src/app/CMakeFiles/test_hist.dir/test_hist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_hist.dir/test_hist.cpp.s"
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/test_hist.cpp -o CMakeFiles/test_hist.dir/test_hist.cpp.s
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/src/app && /usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/app/test_hist.cpp -o CMakeFiles/test_hist.dir/test_hist.cpp.s
 
 # Object files for target test_hist
 test_hist_OBJECTS = \
