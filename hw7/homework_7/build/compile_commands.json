@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/lib",
+  "command": "/usr/bin/clang++-10  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/include -isystem /usr/local/include/opencv4 -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/utils.dir/utils.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/utils.cpp",
+  "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/utils.cpp"
+},
+{
+  "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/app",
+  "command": "/usr/bin/clang++-10  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/include -isystem /usr/local/include/opencv4 -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/learncv.dir/learncv.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/app/learncv.cpp",
+  "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/app/learncv.cpp"
+},
+{
+  "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/app",
+  "command": "/usr/bin/clang++-10  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/include -isystem /usr/local/include/opencv4 -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/test.dir/test.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/app/test.cpp",
+  "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/app/test.cpp"
+},
+{
+  "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/app",
+  "command": "/usr/bin/clang++-10  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/include -isystem /usr/local/include/opencv4 -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/test_func.dir/test_func.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/app/test_func.cpp",
+  "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/app/test_func.cpp"
+}
+]
