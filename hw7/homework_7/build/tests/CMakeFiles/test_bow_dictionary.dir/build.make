@@ -79,15 +79,15 @@ include tests/CMakeFiles/test_bow_dictionary.dir/flags.make
 tests/CMakeFiles/test_bow_dictionary.dir/test_bow_dictionary.cpp.o: tests/CMakeFiles/test_bow_dictionary.dir/flags.make
 tests/CMakeFiles/test_bow_dictionary.dir/test_bow_dictionary.cpp.o: ../tests/test_bow_dictionary.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/test_bow_dictionary.dir/test_bow_dictionary.cpp.o"
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_bow_dictionary.dir/test_bow_dictionary.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/tests/test_bow_dictionary.cpp
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/tests && /usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_bow_dictionary.dir/test_bow_dictionary.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/tests/test_bow_dictionary.cpp
 
 tests/CMakeFiles/test_bow_dictionary.dir/test_bow_dictionary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_bow_dictionary.dir/test_bow_dictionary.cpp.i"
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/tests/test_bow_dictionary.cpp > CMakeFiles/test_bow_dictionary.dir/test_bow_dictionary.cpp.i
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/tests && /usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/tests/test_bow_dictionary.cpp > CMakeFiles/test_bow_dictionary.dir/test_bow_dictionary.cpp.i
 
 tests/CMakeFiles/test_bow_dictionary.dir/test_bow_dictionary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_bow_dictionary.dir/test_bow_dictionary.cpp.s"
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/tests/test_bow_dictionary.cpp -o CMakeFiles/test_bow_dictionary.dir/test_bow_dictionary.cpp.s
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/tests && /usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/tests/test_bow_dictionary.cpp -o CMakeFiles/test_bow_dictionary.dir/test_bow_dictionary.cpp.s
 
 # Object files for target test_bow_dictionary
 test_bow_dictionary_OBJECTS = \

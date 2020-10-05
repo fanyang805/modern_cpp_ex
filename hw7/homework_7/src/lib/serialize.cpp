@@ -37,7 +37,6 @@ cv::Mat Deserialize(const std::string &filename) {
   read_bin.read(reinterpret_cast<char *>(&row_num), sizeof(int));
   read_bin.read(reinterpret_cast<char *>(&col_num), sizeof(int));
   read_bin.read(reinterpret_cast<char *>(&type_int), sizeof(int));
-  // std::cout << row_num << " " << col_num << std::endl;
   cv::Mat filem = cv::Mat::zeros(row_num, col_num, type_int);
   read_bin.read(reinterpret_cast<char *>(filem.data),
                 filem.total() * filem.elemSize());

@@ -1,0 +1,173 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/lib",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/lib",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						6
+					]
+				},
+				{
+					"build" : "src/app",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/app",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "tests",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Relase",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "hw7",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "bow_dictionary::@dc1a1c76835bc3d8b019",
+					"jsonFile" : "target-bow_dictionary-Relase-df9b32faa65d12f62543.json",
+					"name" : "bow_dictionary",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "kmeans::@dc1a1c76835bc3d8b019",
+					"jsonFile" : "target-kmeans-Relase-14e5142ce115f8fd0fa7.json",
+					"name" : "kmeans",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "serialization::@dc1a1c76835bc3d8b019",
+					"jsonFile" : "target-serialization-Relase-6a532a0771ca1f73b7a7.json",
+					"name" : "serialization",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "test_bow_dictionary::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_bow_dictionary-Relase-e8031033fdfb1015583b.json",
+					"name" : "test_bow_dictionary",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test_convert::@ff93792cf40911dae1b8",
+					"jsonFile" : "target-test_convert-Relase-0a2ec152d54c65adc21e.json",
+					"name" : "test_convert",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test_k::@ff93792cf40911dae1b8",
+					"jsonFile" : "target-test_k-Relase-a088c596ec4a7b6ad516.json",
+					"name" : "test_k",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "utils::@dc1a1c76835bc3d8b019",
+					"jsonFile" : "target-utils-Relase-c07219c59063d56a782a.json",
+					"name" : "utils",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build",
+		"source" : "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

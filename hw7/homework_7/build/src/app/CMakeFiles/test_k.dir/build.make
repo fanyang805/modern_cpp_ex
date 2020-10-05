@@ -79,15 +79,15 @@ include src/app/CMakeFiles/test_k.dir/flags.make
 src/app/CMakeFiles/test_k.dir/test_k.cpp.o: src/app/CMakeFiles/test_k.dir/flags.make
 src/app/CMakeFiles/test_k.dir/test_k.cpp.o: ../src/app/test_k.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/app/CMakeFiles/test_k.dir/test_k.cpp.o"
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_k.dir/test_k.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/app/test_k.cpp
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/app && /usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_k.dir/test_k.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/app/test_k.cpp
 
 src/app/CMakeFiles/test_k.dir/test_k.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_k.dir/test_k.cpp.i"
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/app/test_k.cpp > CMakeFiles/test_k.dir/test_k.cpp.i
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/app && /usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/app/test_k.cpp > CMakeFiles/test_k.dir/test_k.cpp.i
 
 src/app/CMakeFiles/test_k.dir/test_k.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_k.dir/test_k.cpp.s"
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/app/test_k.cpp -o CMakeFiles/test_k.dir/test_k.cpp.s
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/app && /usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/app/test_k.cpp -o CMakeFiles/test_k.dir/test_k.cpp.s
 
 # Object files for target test_k
 test_k_OBJECTS = \

@@ -79,28 +79,28 @@ include src/lib/CMakeFiles/serialization.dir/flags.make
 src/lib/CMakeFiles/serialization.dir/serialize.cpp.o: src/lib/CMakeFiles/serialization.dir/flags.make
 src/lib/CMakeFiles/serialization.dir/serialize.cpp.o: ../src/lib/serialize.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/lib/CMakeFiles/serialization.dir/serialize.cpp.o"
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serialization.dir/serialize.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/serialize.cpp
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/lib && /usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serialization.dir/serialize.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/serialize.cpp
 
 src/lib/CMakeFiles/serialization.dir/serialize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serialization.dir/serialize.cpp.i"
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/serialize.cpp > CMakeFiles/serialization.dir/serialize.cpp.i
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/lib && /usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/serialize.cpp > CMakeFiles/serialization.dir/serialize.cpp.i
 
 src/lib/CMakeFiles/serialization.dir/serialize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serialization.dir/serialize.cpp.s"
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/serialize.cpp -o CMakeFiles/serialization.dir/serialize.cpp.s
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/lib && /usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/serialize.cpp -o CMakeFiles/serialization.dir/serialize.cpp.s
 
 src/lib/CMakeFiles/serialization.dir/convert_dataset.cpp.o: src/lib/CMakeFiles/serialization.dir/flags.make
 src/lib/CMakeFiles/serialization.dir/convert_dataset.cpp.o: ../src/lib/convert_dataset.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/lib/CMakeFiles/serialization.dir/convert_dataset.cpp.o"
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serialization.dir/convert_dataset.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/convert_dataset.cpp
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/lib && /usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serialization.dir/convert_dataset.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/convert_dataset.cpp
 
 src/lib/CMakeFiles/serialization.dir/convert_dataset.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serialization.dir/convert_dataset.cpp.i"
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/convert_dataset.cpp > CMakeFiles/serialization.dir/convert_dataset.cpp.i
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/lib && /usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/convert_dataset.cpp > CMakeFiles/serialization.dir/convert_dataset.cpp.i
 
 src/lib/CMakeFiles/serialization.dir/convert_dataset.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serialization.dir/convert_dataset.cpp.s"
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/convert_dataset.cpp -o CMakeFiles/serialization.dir/convert_dataset.cpp.s
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/lib && /usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/convert_dataset.cpp -o CMakeFiles/serialization.dir/convert_dataset.cpp.s
 
 # Object files for target serialization
 serialization_OBJECTS = \
