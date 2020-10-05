@@ -33,7 +33,8 @@
 //  80, 80, 80, 80, 80, 80, 80, 80, 80, 80;
 //  80, 80, 80, 80, 80, 80, 80, 80, 80, 80;
 //  80, 80, 80, 80, 80, 80, 80, 80, 80, 80
-std::vector<cv::Mat>& GetDummyData();
+std::vector<cv::Mat> &GetDummyData();
+// std::vector<cv::Mat> GetDummyData();
 cv::Mat GetAllFeatures();
 
 //  00, 00, 00, 00, 00, 00, 00, 00, 00, 00;
@@ -55,7 +56,6 @@ cv::Mat Get18Kmeans();
 
 //  dummy clustered data
 //  00, 00, 00, 00, 00, 00, 00, 00, 00, 00;
-//  00, 00, 00, 00, 00, 00, 00, 00, 00, 00;
 //  20, 20, 20, 20, 20, 20, 20, 20, 20, 20;
 //  40, 40, 40, 40, 40, 40, 40, 40, 40, 40;
 //  60, 60, 60, 60, 60, 60, 60, 60, 60, 60;
@@ -76,4 +76,4 @@ cv::Mat Get3Kmeans();
 //  70, 70, 70, 70, 70, 70, 70, 70, 70, 70
 cv::Mat Get2Kmeans();
 
-#endif  // TEST_DATA_HPP_
+#endif // TEST_DATA_HPP_

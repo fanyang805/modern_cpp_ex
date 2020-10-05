@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 ../include/utils.hpp
+iostream
+-
 opencv2/core.hpp
 -
 vector
@@ -15,6 +17,14 @@ vector
 /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/utils.cpp
 utils.hpp
 /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/utils.hpp
+cmath
+-
+cstdlib
+-
+ctime
+-
+iostream
+-
 opencv2/core/mat.hpp
 -
 vector

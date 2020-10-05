@@ -79,15 +79,15 @@ include src/lib/CMakeFiles/utils.dir/flags.make
 src/lib/CMakeFiles/utils.dir/utils.cpp.o: src/lib/CMakeFiles/utils.dir/flags.make
 src/lib/CMakeFiles/utils.dir/utils.cpp.o: ../src/lib/utils.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/lib/CMakeFiles/utils.dir/utils.cpp.o"
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/lib && /usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utils.dir/utils.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/utils.cpp
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utils.dir/utils.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/utils.cpp
 
 src/lib/CMakeFiles/utils.dir/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utils.dir/utils.cpp.i"
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/lib && /usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/utils.cpp > CMakeFiles/utils.dir/utils.cpp.i
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/utils.cpp > CMakeFiles/utils.dir/utils.cpp.i
 
 src/lib/CMakeFiles/utils.dir/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utils.dir/utils.cpp.s"
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/lib && /usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/utils.cpp -o CMakeFiles/utils.dir/utils.cpp.s
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/utils.cpp -o CMakeFiles/utils.dir/utils.cpp.s
 
 # Object files for target utils
 utils_OBJECTS = \

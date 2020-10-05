@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../results/lib/libbow_dictionary.a CMakeFiles/bow_dictionary.dir/bowdictionary.cpp.o
+/usr/bin/ranlib ../../../results/lib/libbow_dictionary.a

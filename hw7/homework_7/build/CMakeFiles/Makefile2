@@ -73,16 +73,19 @@ CMAKE_BINARY_DIR = /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/
 
 # The main recursive "all" target.
 all: src/all
+all: tests/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: src/preinstall
+preinstall: tests/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: src/clean
+clean: tests/clean
 
 .PHONY : clean
 
@@ -111,9 +114,8 @@ src/clean: src/app/clean
 # Directory level rules for directory src/app
 
 # Recursive "all" directory target.
-src/app/all: src/app/CMakeFiles/learncv.dir/all
-src/app/all: src/app/CMakeFiles/test.dir/all
-src/app/all: src/app/CMakeFiles/test_func.dir/all
+src/app/all: src/app/CMakeFiles/test_convert.dir/all
+src/app/all: src/app/CMakeFiles/test_k.dir/all
 
 .PHONY : src/app/all
 
@@ -123,9 +125,8 @@ src/app/preinstall:
 .PHONY : src/app/preinstall
 
 # Recursive "clean" directory target.
-src/app/clean: src/app/CMakeFiles/learncv.dir/clean
-src/app/clean: src/app/CMakeFiles/test.dir/clean
-src/app/clean: src/app/CMakeFiles/test_func.dir/clean
+src/app/clean: src/app/CMakeFiles/test_convert.dir/clean
+src/app/clean: src/app/CMakeFiles/test_k.dir/clean
 
 .PHONY : src/app/clean
 
@@ -133,6 +134,9 @@ src/app/clean: src/app/CMakeFiles/test_func.dir/clean
 # Directory level rules for directory src/lib
 
 # Recursive "all" directory target.
+src/lib/all: src/lib/CMakeFiles/bow_dictionary.dir/all
+src/lib/all: src/lib/CMakeFiles/serialization.dir/all
+src/lib/all: src/lib/CMakeFiles/kmeans.dir/all
 src/lib/all: src/lib/CMakeFiles/utils.dir/all
 
 .PHONY : src/lib/all
@@ -143,9 +147,112 @@ src/lib/preinstall:
 .PHONY : src/lib/preinstall
 
 # Recursive "clean" directory target.
+src/lib/clean: src/lib/CMakeFiles/bow_dictionary.dir/clean
+src/lib/clean: src/lib/CMakeFiles/serialization.dir/clean
+src/lib/clean: src/lib/CMakeFiles/kmeans.dir/clean
 src/lib/clean: src/lib/CMakeFiles/utils.dir/clean
 
 .PHONY : src/lib/clean
+
+#=============================================================================
+# Directory level rules for directory tests
+
+# Recursive "all" directory target.
+tests/all: tests/CMakeFiles/test_bow_dictionary.dir/all
+
+.PHONY : tests/all
+
+# Recursive "preinstall" directory target.
+tests/preinstall:
+
+.PHONY : tests/preinstall
+
+# Recursive "clean" directory target.
+tests/clean: tests/CMakeFiles/test_bow_dictionary.dir/clean
+
+.PHONY : tests/clean
+
+#=============================================================================
+# Target rules for target src/lib/CMakeFiles/bow_dictionary.dir
+
+# All Build rule for target.
+src/lib/CMakeFiles/bow_dictionary.dir/all: src/lib/CMakeFiles/kmeans.dir/all
+src/lib/CMakeFiles/bow_dictionary.dir/all: src/lib/CMakeFiles/utils.dir/all
+	$(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/bow_dictionary.dir/build.make src/lib/CMakeFiles/bow_dictionary.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/bow_dictionary.dir/build.make src/lib/CMakeFiles/bow_dictionary.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles --progress-num=1,2 "Built target bow_dictionary"
+.PHONY : src/lib/CMakeFiles/bow_dictionary.dir/all
+
+# Build rule for subdir invocation for target.
+src/lib/CMakeFiles/bow_dictionary.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lib/CMakeFiles/bow_dictionary.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles 0
+.PHONY : src/lib/CMakeFiles/bow_dictionary.dir/rule
+
+# Convenience name for target.
+bow_dictionary: src/lib/CMakeFiles/bow_dictionary.dir/rule
+
+.PHONY : bow_dictionary
+
+# clean rule for target.
+src/lib/CMakeFiles/bow_dictionary.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/bow_dictionary.dir/build.make src/lib/CMakeFiles/bow_dictionary.dir/clean
+.PHONY : src/lib/CMakeFiles/bow_dictionary.dir/clean
+
+#=============================================================================
+# Target rules for target src/lib/CMakeFiles/serialization.dir
+
+# All Build rule for target.
+src/lib/CMakeFiles/serialization.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/serialization.dir/build.make src/lib/CMakeFiles/serialization.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/serialization.dir/build.make src/lib/CMakeFiles/serialization.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles --progress-num=5,6,7 "Built target serialization"
+.PHONY : src/lib/CMakeFiles/serialization.dir/all
+
+# Build rule for subdir invocation for target.
+src/lib/CMakeFiles/serialization.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lib/CMakeFiles/serialization.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles 0
+.PHONY : src/lib/CMakeFiles/serialization.dir/rule
+
+# Convenience name for target.
+serialization: src/lib/CMakeFiles/serialization.dir/rule
+
+.PHONY : serialization
+
+# clean rule for target.
+src/lib/CMakeFiles/serialization.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/serialization.dir/build.make src/lib/CMakeFiles/serialization.dir/clean
+.PHONY : src/lib/CMakeFiles/serialization.dir/clean
+
+#=============================================================================
+# Target rules for target src/lib/CMakeFiles/kmeans.dir
+
+# All Build rule for target.
+src/lib/CMakeFiles/kmeans.dir/all: src/lib/CMakeFiles/utils.dir/all
+	$(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/kmeans.dir/build.make src/lib/CMakeFiles/kmeans.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/kmeans.dir/build.make src/lib/CMakeFiles/kmeans.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles --progress-num=3,4 "Built target kmeans"
+.PHONY : src/lib/CMakeFiles/kmeans.dir/all
+
+# Build rule for subdir invocation for target.
+src/lib/CMakeFiles/kmeans.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lib/CMakeFiles/kmeans.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles 0
+.PHONY : src/lib/CMakeFiles/kmeans.dir/rule
+
+# Convenience name for target.
+kmeans: src/lib/CMakeFiles/kmeans.dir/rule
+
+.PHONY : kmeans
+
+# clean rule for target.
+src/lib/CMakeFiles/kmeans.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/kmeans.dir/build.make src/lib/CMakeFiles/kmeans.dir/clean
+.PHONY : src/lib/CMakeFiles/kmeans.dir/clean
 
 #=============================================================================
 # Target rules for target src/lib/CMakeFiles/utils.dir
@@ -154,7 +261,7 @@ src/lib/clean: src/lib/CMakeFiles/utils.dir/clean
 src/lib/CMakeFiles/utils.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/utils.dir/build.make src/lib/CMakeFiles/utils.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/utils.dir/build.make src/lib/CMakeFiles/utils.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles --progress-num=7,8 "Built target utils"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles --progress-num=14,15 "Built target utils"
 .PHONY : src/lib/CMakeFiles/utils.dir/all
 
 # Build rule for subdir invocation for target.
@@ -175,85 +282,92 @@ src/lib/CMakeFiles/utils.dir/clean:
 .PHONY : src/lib/CMakeFiles/utils.dir/clean
 
 #=============================================================================
-# Target rules for target src/app/CMakeFiles/learncv.dir
+# Target rules for target src/app/CMakeFiles/test_convert.dir
 
 # All Build rule for target.
-src/app/CMakeFiles/learncv.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/learncv.dir/build.make src/app/CMakeFiles/learncv.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/learncv.dir/build.make src/app/CMakeFiles/learncv.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles --progress-num=1,2 "Built target learncv"
-.PHONY : src/app/CMakeFiles/learncv.dir/all
+src/app/CMakeFiles/test_convert.dir/all: src/lib/CMakeFiles/serialization.dir/all
+src/app/CMakeFiles/test_convert.dir/all: src/lib/CMakeFiles/kmeans.dir/all
+src/app/CMakeFiles/test_convert.dir/all: src/lib/CMakeFiles/utils.dir/all
+src/app/CMakeFiles/test_convert.dir/all: src/lib/CMakeFiles/bow_dictionary.dir/all
+	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_convert.dir/build.make src/app/CMakeFiles/test_convert.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_convert.dir/build.make src/app/CMakeFiles/test_convert.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles --progress-num=10,11 "Built target test_convert"
+.PHONY : src/app/CMakeFiles/test_convert.dir/all
 
 # Build rule for subdir invocation for target.
-src/app/CMakeFiles/learncv.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/CMakeFiles/learncv.dir/all
+src/app/CMakeFiles/test_convert.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles 11
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/CMakeFiles/test_convert.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles 0
-.PHONY : src/app/CMakeFiles/learncv.dir/rule
+.PHONY : src/app/CMakeFiles/test_convert.dir/rule
 
 # Convenience name for target.
-learncv: src/app/CMakeFiles/learncv.dir/rule
+test_convert: src/app/CMakeFiles/test_convert.dir/rule
 
-.PHONY : learncv
+.PHONY : test_convert
 
 # clean rule for target.
-src/app/CMakeFiles/learncv.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/learncv.dir/build.make src/app/CMakeFiles/learncv.dir/clean
-.PHONY : src/app/CMakeFiles/learncv.dir/clean
+src/app/CMakeFiles/test_convert.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_convert.dir/build.make src/app/CMakeFiles/test_convert.dir/clean
+.PHONY : src/app/CMakeFiles/test_convert.dir/clean
 
 #=============================================================================
-# Target rules for target src/app/CMakeFiles/test.dir
+# Target rules for target src/app/CMakeFiles/test_k.dir
 
 # All Build rule for target.
-src/app/CMakeFiles/test.dir/all: src/lib/CMakeFiles/utils.dir/all
-	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test.dir/build.make src/app/CMakeFiles/test.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test.dir/build.make src/app/CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles --progress-num=3,4 "Built target test"
-.PHONY : src/app/CMakeFiles/test.dir/all
+src/app/CMakeFiles/test_k.dir/all: src/lib/CMakeFiles/kmeans.dir/all
+src/app/CMakeFiles/test_k.dir/all: src/lib/CMakeFiles/utils.dir/all
+	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_k.dir/build.make src/app/CMakeFiles/test_k.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_k.dir/build.make src/app/CMakeFiles/test_k.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles --progress-num=12,13 "Built target test_k"
+.PHONY : src/app/CMakeFiles/test_k.dir/all
 
 # Build rule for subdir invocation for target.
-src/app/CMakeFiles/test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/CMakeFiles/test.dir/all
+src/app/CMakeFiles/test_k.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/CMakeFiles/test_k.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles 0
-.PHONY : src/app/CMakeFiles/test.dir/rule
+.PHONY : src/app/CMakeFiles/test_k.dir/rule
 
 # Convenience name for target.
-test: src/app/CMakeFiles/test.dir/rule
+test_k: src/app/CMakeFiles/test_k.dir/rule
 
-.PHONY : test
+.PHONY : test_k
 
 # clean rule for target.
-src/app/CMakeFiles/test.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test.dir/build.make src/app/CMakeFiles/test.dir/clean
-.PHONY : src/app/CMakeFiles/test.dir/clean
+src/app/CMakeFiles/test_k.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_k.dir/build.make src/app/CMakeFiles/test_k.dir/clean
+.PHONY : src/app/CMakeFiles/test_k.dir/clean
 
 #=============================================================================
-# Target rules for target src/app/CMakeFiles/test_func.dir
+# Target rules for target tests/CMakeFiles/test_bow_dictionary.dir
 
 # All Build rule for target.
-src/app/CMakeFiles/test_func.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_func.dir/build.make src/app/CMakeFiles/test_func.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_func.dir/build.make src/app/CMakeFiles/test_func.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles --progress-num=5,6 "Built target test_func"
-.PHONY : src/app/CMakeFiles/test_func.dir/all
+tests/CMakeFiles/test_bow_dictionary.dir/all: src/lib/CMakeFiles/serialization.dir/all
+tests/CMakeFiles/test_bow_dictionary.dir/all: src/lib/CMakeFiles/kmeans.dir/all
+tests/CMakeFiles/test_bow_dictionary.dir/all: src/lib/CMakeFiles/utils.dir/all
+tests/CMakeFiles/test_bow_dictionary.dir/all: src/lib/CMakeFiles/bow_dictionary.dir/all
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_bow_dictionary.dir/build.make tests/CMakeFiles/test_bow_dictionary.dir/depend
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_bow_dictionary.dir/build.make tests/CMakeFiles/test_bow_dictionary.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles --progress-num=8,9 "Built target test_bow_dictionary"
+.PHONY : tests/CMakeFiles/test_bow_dictionary.dir/all
 
 # Build rule for subdir invocation for target.
-src/app/CMakeFiles/test_func.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/CMakeFiles/test_func.dir/all
+tests/CMakeFiles/test_bow_dictionary.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles 11
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_bow_dictionary.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/CMakeFiles 0
-.PHONY : src/app/CMakeFiles/test_func.dir/rule
+.PHONY : tests/CMakeFiles/test_bow_dictionary.dir/rule
 
 # Convenience name for target.
-test_func: src/app/CMakeFiles/test_func.dir/rule
+test_bow_dictionary: tests/CMakeFiles/test_bow_dictionary.dir/rule
 
-.PHONY : test_func
+.PHONY : test_bow_dictionary
 
 # clean rule for target.
-src/app/CMakeFiles/test_func.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_func.dir/build.make src/app/CMakeFiles/test_func.dir/clean
-.PHONY : src/app/CMakeFiles/test_func.dir/clean
+tests/CMakeFiles/test_bow_dictionary.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_bow_dictionary.dir/build.make tests/CMakeFiles/test_bow_dictionary.dir/clean
+.PHONY : tests/CMakeFiles/test_bow_dictionary.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

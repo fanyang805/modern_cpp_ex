@@ -18,8 +18,8 @@ using ipb::serialization::sifts::LoadDataset;
 namespace {
 const int max_iter = 10;
 const int dict_size = 1000;
-auto& dictionary = ipb::BowDictionary::GetInstance();
-}  // namespace
+auto &dictionary = ipb::BowDictionary::GetInstance();
+} // namespace
 
 TEST(BowDictionary, Serialization) {
   namespace fs = std::filesystem;
@@ -27,11 +27,11 @@ TEST(BowDictionary, Serialization) {
   const std::string bin_path = "data/freiburg/bin/";
   ipb::serialization::sifts::ConvertDataset(img_path);
 
-  for (const auto& entry : fs::directory_iterator(img_path)) {
-    const auto& stem = entry.path().stem().string();
-    const auto& extension = entry.path().extension();
+  for (const auto &entry : fs::directory_iterator(img_path)) {
+    const auto &stem = entry.path().stem().string();
+    const auto &extension = entry.path().extension();
     if (extension == ".png") {
-      const auto& descriptors_filename = bin_path + stem + ".bin";
+      const auto &descriptors_filename = bin_path + stem + ".bin";
       ASSERT_TRUE(fs::exists(descriptors_filename));
     }
   }
@@ -48,7 +48,7 @@ TEST(BowDictionary, SetDictionaryParams) {
 TEST(BowDictionary, TransparentCluster) {
   const auto descriptors = LoadDataset("data/freiburg/bin/");
   int total_features = 0;
-  for (const auto& descriptor : descriptors) {
+  for (const auto &descriptor : descriptors) {
     total_features += descriptor.rows;
   }
   dictionary.set_params(max_iter, total_features, descriptors);

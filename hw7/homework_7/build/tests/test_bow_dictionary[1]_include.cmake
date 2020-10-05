@@ -1,0 +1,5 @@
+if(EXISTS "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/tests/test_bow_dictionary[1]_tests.cmake")
+  include("/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/tests/test_bow_dictionary[1]_tests.cmake")
+else()
+  add_test(test_bow_dictionary_NOT_BUILT test_bow_dictionary_NOT_BUILT)
+endif()

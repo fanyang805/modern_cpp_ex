@@ -130,6 +130,51 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/lib/CMakeFiles/bow_dictionary.dir/rule:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lib/CMakeFiles/bow_dictionary.dir/rule
+.PHONY : src/lib/CMakeFiles/bow_dictionary.dir/rule
+
+# Convenience name for target.
+bow_dictionary: src/lib/CMakeFiles/bow_dictionary.dir/rule
+
+.PHONY : bow_dictionary
+
+# fast build rule for target.
+bow_dictionary/fast:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/bow_dictionary.dir/build.make src/lib/CMakeFiles/bow_dictionary.dir/build
+.PHONY : bow_dictionary/fast
+
+# Convenience name for target.
+src/lib/CMakeFiles/serialization.dir/rule:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lib/CMakeFiles/serialization.dir/rule
+.PHONY : src/lib/CMakeFiles/serialization.dir/rule
+
+# Convenience name for target.
+serialization: src/lib/CMakeFiles/serialization.dir/rule
+
+.PHONY : serialization
+
+# fast build rule for target.
+serialization/fast:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/serialization.dir/build.make src/lib/CMakeFiles/serialization.dir/build
+.PHONY : serialization/fast
+
+# Convenience name for target.
+src/lib/CMakeFiles/kmeans.dir/rule:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lib/CMakeFiles/kmeans.dir/rule
+.PHONY : src/lib/CMakeFiles/kmeans.dir/rule
+
+# Convenience name for target.
+kmeans: src/lib/CMakeFiles/kmeans.dir/rule
+
+.PHONY : kmeans
+
+# fast build rule for target.
+kmeans/fast:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/kmeans.dir/build.make src/lib/CMakeFiles/kmeans.dir/build
+.PHONY : kmeans/fast
+
+# Convenience name for target.
 src/lib/CMakeFiles/utils.dir/rule:
 	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lib/CMakeFiles/utils.dir/rule
 .PHONY : src/lib/CMakeFiles/utils.dir/rule
@@ -143,6 +188,114 @@ utils: src/lib/CMakeFiles/utils.dir/rule
 utils/fast:
 	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/utils.dir/build.make src/lib/CMakeFiles/utils.dir/build
 .PHONY : utils/fast
+
+bowdictionary.o: bowdictionary.cpp.o
+
+.PHONY : bowdictionary.o
+
+# target to build an object file
+bowdictionary.cpp.o:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/bow_dictionary.dir/build.make src/lib/CMakeFiles/bow_dictionary.dir/bowdictionary.cpp.o
+.PHONY : bowdictionary.cpp.o
+
+bowdictionary.i: bowdictionary.cpp.i
+
+.PHONY : bowdictionary.i
+
+# target to preprocess a source file
+bowdictionary.cpp.i:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/bow_dictionary.dir/build.make src/lib/CMakeFiles/bow_dictionary.dir/bowdictionary.cpp.i
+.PHONY : bowdictionary.cpp.i
+
+bowdictionary.s: bowdictionary.cpp.s
+
+.PHONY : bowdictionary.s
+
+# target to generate assembly for a file
+bowdictionary.cpp.s:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/bow_dictionary.dir/build.make src/lib/CMakeFiles/bow_dictionary.dir/bowdictionary.cpp.s
+.PHONY : bowdictionary.cpp.s
+
+convert_dataset.o: convert_dataset.cpp.o
+
+.PHONY : convert_dataset.o
+
+# target to build an object file
+convert_dataset.cpp.o:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/serialization.dir/build.make src/lib/CMakeFiles/serialization.dir/convert_dataset.cpp.o
+.PHONY : convert_dataset.cpp.o
+
+convert_dataset.i: convert_dataset.cpp.i
+
+.PHONY : convert_dataset.i
+
+# target to preprocess a source file
+convert_dataset.cpp.i:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/serialization.dir/build.make src/lib/CMakeFiles/serialization.dir/convert_dataset.cpp.i
+.PHONY : convert_dataset.cpp.i
+
+convert_dataset.s: convert_dataset.cpp.s
+
+.PHONY : convert_dataset.s
+
+# target to generate assembly for a file
+convert_dataset.cpp.s:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/serialization.dir/build.make src/lib/CMakeFiles/serialization.dir/convert_dataset.cpp.s
+.PHONY : convert_dataset.cpp.s
+
+kMeans.o: kMeans.cpp.o
+
+.PHONY : kMeans.o
+
+# target to build an object file
+kMeans.cpp.o:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/kmeans.dir/build.make src/lib/CMakeFiles/kmeans.dir/kMeans.cpp.o
+.PHONY : kMeans.cpp.o
+
+kMeans.i: kMeans.cpp.i
+
+.PHONY : kMeans.i
+
+# target to preprocess a source file
+kMeans.cpp.i:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/kmeans.dir/build.make src/lib/CMakeFiles/kmeans.dir/kMeans.cpp.i
+.PHONY : kMeans.cpp.i
+
+kMeans.s: kMeans.cpp.s
+
+.PHONY : kMeans.s
+
+# target to generate assembly for a file
+kMeans.cpp.s:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/kmeans.dir/build.make src/lib/CMakeFiles/kmeans.dir/kMeans.cpp.s
+.PHONY : kMeans.cpp.s
+
+serialize.o: serialize.cpp.o
+
+.PHONY : serialize.o
+
+# target to build an object file
+serialize.cpp.o:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/serialization.dir/build.make src/lib/CMakeFiles/serialization.dir/serialize.cpp.o
+.PHONY : serialize.cpp.o
+
+serialize.i: serialize.cpp.i
+
+.PHONY : serialize.i
+
+# target to preprocess a source file
+serialize.cpp.i:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/serialization.dir/build.make src/lib/CMakeFiles/serialization.dir/serialize.cpp.i
+.PHONY : serialize.cpp.i
+
+serialize.s: serialize.cpp.s
+
+.PHONY : serialize.s
+
+# target to generate assembly for a file
+serialize.cpp.s:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/serialization.dir/build.make src/lib/CMakeFiles/serialization.dir/serialize.cpp.s
+.PHONY : serialize.cpp.s
 
 utils.o: utils.cpp.o
 
@@ -179,7 +332,22 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... bow_dictionary"
+	@echo "... kmeans"
+	@echo "... serialization"
 	@echo "... utils"
+	@echo "... bowdictionary.o"
+	@echo "... bowdictionary.i"
+	@echo "... bowdictionary.s"
+	@echo "... convert_dataset.o"
+	@echo "... convert_dataset.i"
+	@echo "... convert_dataset.s"
+	@echo "... kMeans.o"
+	@echo "... kMeans.i"
+	@echo "... kMeans.s"
+	@echo "... serialize.o"
+	@echo "... serialize.i"
+	@echo "... serialize.s"
 	@echo "... utils.o"
 	@echo "... utils.i"
 	@echo "... utils.s"

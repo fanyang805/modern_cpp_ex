@@ -9,8 +9,8 @@
 using namespace std;
 using namespace cv;
 
-static void TestKMeans(const cv::Mat& gt_cluster) {
-  auto& data = GetDummyData();
+static void TestKMeans(const cv::Mat &gt_cluster) {
+  auto &data = GetDummyData();
 
   const int dict_size = gt_cluster.rows;
   const int iterations = 10;
@@ -27,6 +27,7 @@ static void TestKMeans(const cv::Mat& gt_cluster) {
       << centroids;
 }
 
+// The tests are not setup properly. There could be multiple solutions.
 TEST(KMeansCluster, SelectAllFeatures) { TestKMeans(GetAllFeatures()); }
 TEST(KMeansCluster, Use2Words) { TestKMeans(Get2Kmeans()); }
 TEST(KMeansCluster, Use3Words) { TestKMeans(Get3Kmeans()); }

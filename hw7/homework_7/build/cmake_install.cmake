@@ -45,6 +45,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/cmake_install.cmake")
+  include("/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/tests/cmake_install.cmake")
 
 endif()
 

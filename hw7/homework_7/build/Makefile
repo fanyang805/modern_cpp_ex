@@ -130,6 +130,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named bow_dictionary
+
+# Build rule for target.
+bow_dictionary: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bow_dictionary
+.PHONY : bow_dictionary
+
+# fast build rule for target.
+bow_dictionary/fast:
+	$(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/bow_dictionary.dir/build.make src/lib/CMakeFiles/bow_dictionary.dir/build
+.PHONY : bow_dictionary/fast
+
+#=============================================================================
+# Target rules for targets named serialization
+
+# Build rule for target.
+serialization: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 serialization
+.PHONY : serialization
+
+# fast build rule for target.
+serialization/fast:
+	$(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/serialization.dir/build.make src/lib/CMakeFiles/serialization.dir/build
+.PHONY : serialization/fast
+
+#=============================================================================
+# Target rules for targets named kmeans
+
+# Build rule for target.
+kmeans: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kmeans
+.PHONY : kmeans
+
+# fast build rule for target.
+kmeans/fast:
+	$(MAKE) $(MAKESILENT) -f src/lib/CMakeFiles/kmeans.dir/build.make src/lib/CMakeFiles/kmeans.dir/build
+.PHONY : kmeans/fast
+
+#=============================================================================
 # Target rules for targets named utils
 
 # Build rule for target.
@@ -143,43 +182,43 @@ utils/fast:
 .PHONY : utils/fast
 
 #=============================================================================
-# Target rules for targets named learncv
+# Target rules for targets named test_convert
 
 # Build rule for target.
-learncv: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 learncv
-.PHONY : learncv
+test_convert: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_convert
+.PHONY : test_convert
 
 # fast build rule for target.
-learncv/fast:
-	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/learncv.dir/build.make src/app/CMakeFiles/learncv.dir/build
-.PHONY : learncv/fast
+test_convert/fast:
+	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_convert.dir/build.make src/app/CMakeFiles/test_convert.dir/build
+.PHONY : test_convert/fast
 
 #=============================================================================
-# Target rules for targets named test
+# Target rules for targets named test_k
 
 # Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
-.PHONY : test
+test_k: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_k
+.PHONY : test_k
 
 # fast build rule for target.
-test/fast:
-	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test.dir/build.make src/app/CMakeFiles/test.dir/build
-.PHONY : test/fast
+test_k/fast:
+	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_k.dir/build.make src/app/CMakeFiles/test_k.dir/build
+.PHONY : test_k/fast
 
 #=============================================================================
-# Target rules for targets named test_func
+# Target rules for targets named test_bow_dictionary
 
 # Build rule for target.
-test_func: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_func
-.PHONY : test_func
+test_bow_dictionary: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_bow_dictionary
+.PHONY : test_bow_dictionary
 
 # fast build rule for target.
-test_func/fast:
-	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_func.dir/build.make src/app/CMakeFiles/test_func.dir/build
-.PHONY : test_func/fast
+test_bow_dictionary/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_bow_dictionary.dir/build.make tests/CMakeFiles/test_bow_dictionary.dir/build
+.PHONY : test_bow_dictionary/fast
 
 # Help Target
 help:
@@ -189,9 +228,12 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... learncv"
-	@echo "... test"
-	@echo "... test_func"
+	@echo "... bow_dictionary"
+	@echo "... kmeans"
+	@echo "... serialization"
+	@echo "... test_bow_dictionary"
+	@echo "... test_convert"
+	@echo "... test_k"
 	@echo "... utils"
 .PHONY : help
 

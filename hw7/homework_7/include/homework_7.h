@@ -1,0 +1,5 @@
+#include "bowdictionary.hpp"
+#include "convert_dataset.hpp"
+#include "kMeans.hpp"
+#include "serialize.hpp"
+#include "utils.hpp"

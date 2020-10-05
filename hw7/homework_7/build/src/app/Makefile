@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -96,6 +85,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -130,130 +130,88 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/app/CMakeFiles/learncv.dir/rule:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/CMakeFiles/learncv.dir/rule
-.PHONY : src/app/CMakeFiles/learncv.dir/rule
+src/app/CMakeFiles/test_convert.dir/rule:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/CMakeFiles/test_convert.dir/rule
+.PHONY : src/app/CMakeFiles/test_convert.dir/rule
 
 # Convenience name for target.
-learncv: src/app/CMakeFiles/learncv.dir/rule
+test_convert: src/app/CMakeFiles/test_convert.dir/rule
 
-.PHONY : learncv
+.PHONY : test_convert
 
 # fast build rule for target.
-learncv/fast:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/learncv.dir/build.make src/app/CMakeFiles/learncv.dir/build
-.PHONY : learncv/fast
+test_convert/fast:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_convert.dir/build.make src/app/CMakeFiles/test_convert.dir/build
+.PHONY : test_convert/fast
 
 # Convenience name for target.
-src/app/CMakeFiles/test.dir/rule:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/CMakeFiles/test.dir/rule
-.PHONY : src/app/CMakeFiles/test.dir/rule
+src/app/CMakeFiles/test_k.dir/rule:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/CMakeFiles/test_k.dir/rule
+.PHONY : src/app/CMakeFiles/test_k.dir/rule
 
 # Convenience name for target.
-test: src/app/CMakeFiles/test.dir/rule
+test_k: src/app/CMakeFiles/test_k.dir/rule
 
-.PHONY : test
+.PHONY : test_k
 
 # fast build rule for target.
-test/fast:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test.dir/build.make src/app/CMakeFiles/test.dir/build
-.PHONY : test/fast
+test_k/fast:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_k.dir/build.make src/app/CMakeFiles/test_k.dir/build
+.PHONY : test_k/fast
 
-# Convenience name for target.
-src/app/CMakeFiles/test_func.dir/rule:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/CMakeFiles/test_func.dir/rule
-.PHONY : src/app/CMakeFiles/test_func.dir/rule
+test_convert.o: test_convert.cpp.o
 
-# Convenience name for target.
-test_func: src/app/CMakeFiles/test_func.dir/rule
-
-.PHONY : test_func
-
-# fast build rule for target.
-test_func/fast:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_func.dir/build.make src/app/CMakeFiles/test_func.dir/build
-.PHONY : test_func/fast
-
-learncv.o: learncv.cpp.o
-
-.PHONY : learncv.o
+.PHONY : test_convert.o
 
 # target to build an object file
-learncv.cpp.o:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/learncv.dir/build.make src/app/CMakeFiles/learncv.dir/learncv.cpp.o
-.PHONY : learncv.cpp.o
+test_convert.cpp.o:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_convert.dir/build.make src/app/CMakeFiles/test_convert.dir/test_convert.cpp.o
+.PHONY : test_convert.cpp.o
 
-learncv.i: learncv.cpp.i
+test_convert.i: test_convert.cpp.i
 
-.PHONY : learncv.i
+.PHONY : test_convert.i
 
 # target to preprocess a source file
-learncv.cpp.i:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/learncv.dir/build.make src/app/CMakeFiles/learncv.dir/learncv.cpp.i
-.PHONY : learncv.cpp.i
+test_convert.cpp.i:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_convert.dir/build.make src/app/CMakeFiles/test_convert.dir/test_convert.cpp.i
+.PHONY : test_convert.cpp.i
 
-learncv.s: learncv.cpp.s
+test_convert.s: test_convert.cpp.s
 
-.PHONY : learncv.s
+.PHONY : test_convert.s
 
 # target to generate assembly for a file
-learncv.cpp.s:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/learncv.dir/build.make src/app/CMakeFiles/learncv.dir/learncv.cpp.s
-.PHONY : learncv.cpp.s
+test_convert.cpp.s:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_convert.dir/build.make src/app/CMakeFiles/test_convert.dir/test_convert.cpp.s
+.PHONY : test_convert.cpp.s
 
-test.o: test.cpp.o
+test_k.o: test_k.cpp.o
 
-.PHONY : test.o
+.PHONY : test_k.o
 
 # target to build an object file
-test.cpp.o:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test.dir/build.make src/app/CMakeFiles/test.dir/test.cpp.o
-.PHONY : test.cpp.o
+test_k.cpp.o:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_k.dir/build.make src/app/CMakeFiles/test_k.dir/test_k.cpp.o
+.PHONY : test_k.cpp.o
 
-test.i: test.cpp.i
+test_k.i: test_k.cpp.i
 
-.PHONY : test.i
-
-# target to preprocess a source file
-test.cpp.i:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test.dir/build.make src/app/CMakeFiles/test.dir/test.cpp.i
-.PHONY : test.cpp.i
-
-test.s: test.cpp.s
-
-.PHONY : test.s
-
-# target to generate assembly for a file
-test.cpp.s:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test.dir/build.make src/app/CMakeFiles/test.dir/test.cpp.s
-.PHONY : test.cpp.s
-
-test_func.o: test_func.cpp.o
-
-.PHONY : test_func.o
-
-# target to build an object file
-test_func.cpp.o:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_func.dir/build.make src/app/CMakeFiles/test_func.dir/test_func.cpp.o
-.PHONY : test_func.cpp.o
-
-test_func.i: test_func.cpp.i
-
-.PHONY : test_func.i
+.PHONY : test_k.i
 
 # target to preprocess a source file
-test_func.cpp.i:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_func.dir/build.make src/app/CMakeFiles/test_func.dir/test_func.cpp.i
-.PHONY : test_func.cpp.i
+test_k.cpp.i:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_k.dir/build.make src/app/CMakeFiles/test_k.dir/test_k.cpp.i
+.PHONY : test_k.cpp.i
 
-test_func.s: test_func.cpp.s
+test_k.s: test_k.cpp.s
 
-.PHONY : test_func.s
+.PHONY : test_k.s
 
 # target to generate assembly for a file
-test_func.cpp.s:
-	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_func.dir/build.make src/app/CMakeFiles/test_func.dir/test_func.cpp.s
-.PHONY : test_func.cpp.s
+test_k.cpp.s:
+	cd /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_k.dir/build.make src/app/CMakeFiles/test_k.dir/test_k.cpp.s
+.PHONY : test_k.cpp.s
 
 # Help Target
 help:
@@ -263,18 +221,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... learncv"
-	@echo "... test"
-	@echo "... test_func"
-	@echo "... learncv.o"
-	@echo "... learncv.i"
-	@echo "... learncv.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
-	@echo "... test_func.o"
-	@echo "... test_func.i"
-	@echo "... test_func.s"
+	@echo "... test_convert"
+	@echo "... test_k"
+	@echo "... test_convert.o"
+	@echo "... test_convert.i"
+	@echo "... test_convert.s"
+	@echo "... test_k.o"
+	@echo "... test_k.i"
+	@echo "... test_k.s"
 .PHONY : help
 
 

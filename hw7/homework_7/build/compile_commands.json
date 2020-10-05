@@ -1,22 +1,42 @@
 [
 {
   "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/lib",
-  "command": "/usr/bin/clang++-10  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/include -isystem /usr/local/include/opencv4 -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/utils.dir/utils.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/utils.cpp",
+  "command": "/usr/bin/c++  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/include -isystem /usr/local/include/opencv4 -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/bow_dictionary.dir/bowdictionary.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/bowdictionary.cpp",
+  "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/bowdictionary.cpp"
+},
+{
+  "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/lib",
+  "command": "/usr/bin/c++  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/include -isystem /usr/local/include/opencv4 -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/serialization.dir/serialize.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/serialize.cpp",
+  "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/serialize.cpp"
+},
+{
+  "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/lib",
+  "command": "/usr/bin/c++  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/include -isystem /usr/local/include/opencv4 -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/serialization.dir/convert_dataset.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/convert_dataset.cpp",
+  "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/convert_dataset.cpp"
+},
+{
+  "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/lib",
+  "command": "/usr/bin/c++  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/include -isystem /usr/local/include/opencv4 -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/kmeans.dir/kMeans.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/kMeans.cpp",
+  "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/kMeans.cpp"
+},
+{
+  "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/lib",
+  "command": "/usr/bin/c++  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/include -isystem /usr/local/include/opencv4 -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/utils.dir/utils.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/utils.cpp",
   "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib/utils.cpp"
 },
 {
   "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/app",
-  "command": "/usr/bin/clang++-10  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/include -isystem /usr/local/include/opencv4 -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/learncv.dir/learncv.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/app/learncv.cpp",
-  "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/app/learncv.cpp"
+  "command": "/usr/bin/c++  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/include -isystem /usr/local/include/opencv4 -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/test_convert.dir/test_convert.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/app/test_convert.cpp",
+  "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/app/test_convert.cpp"
 },
 {
   "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/app",
-  "command": "/usr/bin/clang++-10  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/include -isystem /usr/local/include/opencv4 -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/test.dir/test.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/app/test.cpp",
-  "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/app/test.cpp"
+  "command": "/usr/bin/c++  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/include -isystem /usr/local/include/opencv4 -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/test_k.dir/test_k.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/app/test_k.cpp",
+  "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/app/test_k.cpp"
 },
 {
-  "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/src/app",
-  "command": "/usr/bin/clang++-10  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/include -isystem /usr/local/include/opencv4 -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/test_func.dir/test_func.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/app/test_func.cpp",
-  "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/app/test_func.cpp"
+  "directory": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/build/tests",
+  "command": "/usr/bin/c++  -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/include -isystem /usr/local/include/opencv4 -Wall -Wextra -g -O0 -std=gnu++17 -o CMakeFiles/test_bow_dictionary.dir/test_bow_dictionary.cpp.o -c /home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/tests/test_bow_dictionary.cpp",
+  "file": "/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw7/homework_7/tests/test_bow_dictionary.cpp"
 }
 ]
