@@ -24,7 +24,9 @@ public:
   // Member functions
   const int &rows() const { return rows_; }
   const int &cols() const { return cols_; }
-  const uint8_t &at(int row, int col) const { return data_[row + col]; };
+  const uint8_t &at(int row, int col) const {
+    return data_[row * cols_ + col];
+  };
   uint8_t &at(int row, int col) { return data_[row * cols_ + col]; };
   bool FillFromPgm(const std::string &);
   void WriteToPgm(const std::string &) const;
