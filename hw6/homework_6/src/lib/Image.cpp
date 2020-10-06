@@ -11,11 +11,7 @@ bool Image::FillFromPgm(const std::string &filename) {
   rows_ = img_data.rows;
   cols_ = img_data.cols;
   data_ = img_data.data;
-  if ((img_data.data).empty()) {
-    return false;
-  } else {
-    return true;
-  }
+  return !(img_data.data).empty();
 };
 
 // Create .pgm file from Image obj
@@ -30,14 +26,13 @@ void Image::WriteToPgm(const std::string &filename) const {
 std::vector<float> Image::ComputeHistogram(int num_bins) const {
   std::vector<uint8_t> data_forsort{data_};
   std::sort(data_forsort.begin(), data_forsort.end());
-  std::vector<float> hist(num_bins, 0.0f);
+  std::vector<float> hist(num_bins, 0.0F);
 
   int bin_ind = 0;
   double bin_size = 255 / double(num_bins);
   int pixel_num = 0;
   //   for (const auto &pixel : data_forsort) {
-  for (std::vector<uint8_t>::const_iterator it_pixel = data_forsort.cbegin();
-       it_pixel < data_forsort.cend();) {
+  for (auto it_pixel = data_forsort.cbegin(); it_pixel < data_forsort.cend();) {
     if (*it_pixel <= bin_size * (bin_ind + 1)) {
       ++pixel_num;
       ++it_pixel;
