@@ -1,1 +1,1 @@
-# This repo includes my solution to the class Modern C++ for CV
+# This repo includes my solutions to the class Modern C++ for CV
