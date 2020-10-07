@@ -195,8 +195,8 @@ tests/clean: tests/CMakeFiles/hw6_test.dir/clean
 # Target rules for target tests/CMakeFiles/hw6_test.dir
 
 # All Build rule for target.
-tests/CMakeFiles/hw6_test.dir/all: src/lib/CMakeFiles/image.dir/all
 tests/CMakeFiles/hw6_test.dir/all: io_tools/CMakeFiles/iotools.dir/all
+tests/CMakeFiles/hw6_test.dir/all: src/lib/CMakeFiles/image.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/hw6_test.dir/build.make tests/CMakeFiles/hw6_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/hw6_test.dir/build.make tests/CMakeFiles/hw6_test.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target hw6_test"
@@ -277,8 +277,8 @@ src/lib/CMakeFiles/image.dir/clean:
 # Target rules for target src/app/CMakeFiles/test_scale.dir
 
 # All Build rule for target.
-src/app/CMakeFiles/test_scale.dir/all: src/lib/CMakeFiles/image.dir/all
 src/app/CMakeFiles/test_scale.dir/all: io_tools/CMakeFiles/iotools.dir/all
+src/app/CMakeFiles/test_scale.dir/all: src/lib/CMakeFiles/image.dir/all
 	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_scale.dir/build.make src/app/CMakeFiles/test_scale.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_scale.dir/build.make src/app/CMakeFiles/test_scale.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/CMakeFiles --progress-num=16,17 "Built target test_scale"
@@ -305,8 +305,8 @@ src/app/CMakeFiles/test_scale.dir/clean:
 # Target rules for target src/app/CMakeFiles/test_hist.dir
 
 # All Build rule for target.
-src/app/CMakeFiles/test_hist.dir/all: src/lib/CMakeFiles/image.dir/all
 src/app/CMakeFiles/test_hist.dir/all: io_tools/CMakeFiles/iotools.dir/all
+src/app/CMakeFiles/test_hist.dir/all: src/lib/CMakeFiles/image.dir/all
 	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_hist.dir/build.make src/app/CMakeFiles/test_hist.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_hist.dir/build.make src/app/CMakeFiles/test_hist.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/CMakeFiles --progress-num=10,11 "Built target test_hist"
@@ -333,8 +333,8 @@ src/app/CMakeFiles/test_hist.dir/clean:
 # Target rules for target src/app/CMakeFiles/test_pgm.dir
 
 # All Build rule for target.
-src/app/CMakeFiles/test_pgm.dir/all: src/lib/CMakeFiles/image.dir/all
 src/app/CMakeFiles/test_pgm.dir/all: io_tools/CMakeFiles/iotools.dir/all
+src/app/CMakeFiles/test_pgm.dir/all: src/lib/CMakeFiles/image.dir/all
 	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_pgm.dir/build.make src/app/CMakeFiles/test_pgm.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_pgm.dir/build.make src/app/CMakeFiles/test_pgm.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/CMakeFiles --progress-num=14,15 "Built target test_pgm"
@@ -361,8 +361,8 @@ src/app/CMakeFiles/test_pgm.dir/clean:
 # Target rules for target src/app/CMakeFiles/test_init.dir
 
 # All Build rule for target.
-src/app/CMakeFiles/test_init.dir/all: src/lib/CMakeFiles/image.dir/all
 src/app/CMakeFiles/test_init.dir/all: io_tools/CMakeFiles/iotools.dir/all
+src/app/CMakeFiles/test_init.dir/all: src/lib/CMakeFiles/image.dir/all
 	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_init.dir/build.make src/app/CMakeFiles/test_init.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/test_init.dir/build.make src/app/CMakeFiles/test_init.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/build/CMakeFiles --progress-num=12,13 "Built target test_init"

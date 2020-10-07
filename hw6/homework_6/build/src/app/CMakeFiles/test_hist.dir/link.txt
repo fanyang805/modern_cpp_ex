@@ -1,1 +1,1 @@
-/usr/bin/clang++-10 -Wall -Wextra -O3 CMakeFiles/test_hist.dir/test_hist.cpp.o -o ../../../results/bin/test_hist  ../../../results/lib/libimage.a ../../../results/lib/libiotools.a 
+/usr/bin/clang++-10 -Wall -Wextra -g -O0 CMakeFiles/test_hist.dir/test_hist.cpp.o -o ../../../results/bin/test_hist  ../../../results/lib/libimage.a ../../../results/lib/libiotools.a 

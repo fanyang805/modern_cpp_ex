@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/include -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/src/lib -I/home/fanyang/Documents/cv_cpp/modern_cpp_sol/hw6/homework_6/io_tools
 
-CXX_FLAGS = -Wall -Wextra -O3 -std=gnu++17
+CXX_FLAGS = -Wall -Wextra -g -O0 -std=gnu++17
 
