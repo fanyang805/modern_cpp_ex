@@ -1,9 +1,10 @@
 #include "histogram.hpp"
 
 #include <fstream>
+#include <limits>
+#include <sstream>
 
 #include "bowdictionary.hpp"
-#include "sstream"
 #include "utils.hpp"
 
 using namespace cv;
@@ -18,7 +19,7 @@ Histogram::Histogram(cv::Mat descriptors, const BowDictionary &dictionary) {
   }
   data_ = std::vector<int>(vocabularies.rows);
   for (int des_id = 0; des_id < descriptors.rows; ++des_id) {
-    double min_distance = INT_MAX;
+    double min_distance = std::numeric_limits<double>::max();
     int min_voc_id = -1;
     for (int voc_id = 0; voc_id < vocabularies.rows; ++voc_id) {
       double distance = euclidean_dis_sq<float>(descriptors.row(des_id),
@@ -29,7 +30,6 @@ Histogram::Histogram(cv::Mat descriptors, const BowDictionary &dictionary) {
       }
     }
     ++data_[min_voc_id];
-    // std::cout << min_voc_id << std::endl;
   }
 }
 
@@ -38,13 +38,12 @@ Histogram Histogram::ReadFromCSV(const std::string &filename) {
   std::ifstream in(filename, std::ios_base::in);
   if (!in) {
     std::cerr << "Cannot read .csv file: " << filename << std::endl;
-    exit(-1);
+    return Histogram();
   }
 
   std::string line;
   while (std::getline(in, line)) {
     std::stringstream ss{line};
-    // int counts = -1;
     std::string str_counts;
     while (std::getline(ss, str_counts, ',')) {
       int counts = std::stoi(str_counts);
