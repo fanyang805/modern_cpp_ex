@@ -32,7 +32,10 @@ public:
   const int &max_iterations() const { return max_iterations_; };
   const int &size() const { return dict_size_; };
   const std::vector<cv::Mat> &descriptors() const { return descriptors_; };
-  const cv::Mat vocabulary(const int &ind) { return dictionary_.row(ind); };
+  const cv::Mat vocabulary(const int &ind) const {
+    return dictionary_.row(ind);
+  };
+  const cv::Mat vocabulary() const { return dictionary_; };
   int total_features() const { return total_features_; };
   bool empty() const { return (descriptors_.size() == 0); }
 
