@@ -1,4 +1,5 @@
 #include "utils.hpp"
+#include <cmath>
 #include <iomanip>
 #include <opencv2/core.hpp>
 #include <opencv2/imgcodecs.hpp>
@@ -41,6 +42,19 @@ const std::vector<std::string> get_sequence(const std::string &img_path,
   }
 
   return img_sequence;
+}
+
+float cosine_dis(cv::Mat mat1, cv::Mat mat2) {
+  float dot_product = mat1.dot(mat2);
+  float sq_norm1 = mat1.dot(mat1);
+  float sq_norm2 = mat2.dot(mat2);
+  float cosine_simiarity = dot_product / std::sqrt(sq_norm1 * sq_norm2);
+  return 1 - cosine_simiarity;
+}
+
+float euclidean_dis_sq(cv::Mat mat1, cv::Mat mat2) {
+  Mat mat_sub = mat1 - mat2;
+  return mat_sub.dot(mat_sub);
 }
 
 } // namespace bovw

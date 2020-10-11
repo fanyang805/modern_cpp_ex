@@ -1,5 +1,7 @@
 add_executable(test_create_data_bin test_create_data_bin.cpp)
 add_executable(test_binary test_binary.cpp)
+add_executable(test_cosine_dis test_cosine_dis.cpp)
 
 target_link_libraries(test_create_data_bin utils convert_dataset)
 target_link_libraries(test_binary utils convert_dataset)
+target_link_libraries(test_cosine_dis utils)

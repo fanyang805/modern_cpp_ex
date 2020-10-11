@@ -18,6 +18,10 @@ const std::vector<std::string> get_sequence(const std::string &img_path,
                                             const std::string &extension,
                                             int min_num, int max_num);
 
+float cosine_dis(cv::Mat mat1, cv::Mat mat2);
+
+float euclidean_dis_sq(cv::Mat mat1, cv::Mat mat2);
+
 } // namespace bovw
 
 #endif // UTILS_HPP_
