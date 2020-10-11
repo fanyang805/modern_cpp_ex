@@ -15,6 +15,7 @@ bool inline mat_are_equal(const cv::Mat &m1, const cv::Mat &m2) {
 const cv::Mat compute_sifts(const std::string &);
 
 const std::vector<std::string> get_sequence(const std::string &img_path,
+                                            const std::string &extension,
                                             int min_num, int max_num);
 
 } // namespace bovw

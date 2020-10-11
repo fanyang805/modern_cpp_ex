@@ -12,7 +12,9 @@ namespace fs = std::filesystem;
 int main() {
   // Create the squence to read img file and generate binary file
   const std::string &img_path{"tests/data/images/"};
-  std::vector<std::string> img_sequence = bovw::get_sequence(img_path, 0, 9);
+  const std::string &extension{".png"};
+  std::vector<std::string> img_sequence =
+      bovw::get_sequence(img_path, extension, 0, 9);
   // Extract SIFT descripters from .png images and convert descripters to the
   // .bin binary files
   std::vector<std::string> bin_sequence =

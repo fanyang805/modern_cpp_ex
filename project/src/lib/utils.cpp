@@ -22,9 +22,9 @@ const cv::Mat compute_sifts(const std::string &filename) {
 }
 
 const std::vector<std::string> get_sequence(const std::string &img_path,
+                                            const std::string &extension,
                                             int min_num, int max_num) {
   const std::string &prefix = "imageCompressedCam0_";
-  const std::string &extension = ".png";
   std::vector<std::string> img_sequence;
   img_sequence.reserve(max_num - min_num + 1);
 
