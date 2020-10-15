@@ -16,8 +16,8 @@ int main() {
       bovw::get_sequence(bin_path, bin_extension, 0, 691);
 
   std::cout << "Start to read binary files.\n";
-  std::vector<cv::Mat> vec_des = bovw::serialization::sifts::LoadDataset(
-      "tests/data/bin/", bin_sequence, 700);
+  std::vector<cv::Mat> vec_des =
+      bovw::serialization::sifts::LoadDataset("data/bin/", bin_sequence, 700);
 
   std::cout << "Start to compare SIFT descripters from original .png files and "
                ".bin files\n";

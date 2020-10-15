@@ -17,6 +17,8 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src/)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src/lib/)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include/)
 
+message(STATUS "Found include ${CMAKE_CURRENT_SOURCE_DIR}/src/lib/")
+
 
 set(RESULTS_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/results)
 file(MAKE_DIRECTORY ${RESULTS_OUTPUT_DIRECTORY})

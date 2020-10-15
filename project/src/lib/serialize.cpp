@@ -8,6 +8,10 @@
 namespace bovw::serialization {
 
 void Serialize(const cv::Mat &m, const std::string &filename) {
+  if (m.empty()) {
+    std::cerr << "The matrix is empty!" << std::endl;
+    return;
+  }
   namespace fs = std::filesystem;
   uchar *ptmat = m.data;
   int row_num = m.rows;
@@ -34,6 +38,10 @@ cv::Mat Deserialize(const std::string &filename) {
   int row_num, col_num, type_int;
 
   std::ifstream read_bin(filename, std::ios_base::in | std::ios_base::binary);
+  if (!read_bin) {
+    std::cerr << "The file " << filename << " does not exist!\n";
+    return cv::Mat();
+  }
 
   read_bin.read(reinterpret_cast<char *>(&row_num), sizeof(int));
   read_bin.read(reinterpret_cast<char *>(&col_num), sizeof(int));
