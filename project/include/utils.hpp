@@ -31,6 +31,20 @@ std::vector<cv::Mat> gen_blabels(const cv::Mat &bestLabels,
 
 std::vector<bovw::Histogram> gen_vechist_from_csv(const std::string &filename);
 
+template <typename T>
+std::ostream &operator<<(std::ostream &os, const std::vector<T> &vec) {
+  std::cout << "[";
+  for (auto voc_it = vec.cbegin(); voc_it < vec.cend(); ++voc_it) {
+    os << *voc_it;
+    if (voc_it < vec.cend() - 1) {
+      os << ", ";
+    } else {
+      os << "]";
+    }
+  }
+  return os;
+}
+
 } // namespace bovw
 
 #endif // UTILS_HPP_

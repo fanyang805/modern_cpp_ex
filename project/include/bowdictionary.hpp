@@ -12,6 +12,7 @@ class Histogram;
 class BowDictionary {
 private:
   cv::Mat vocabulary_;
+  // number of images that contain word i
   std::vector<int> words_occurrence_;
   cv::Mat bestLabels_;
   BowDictionary() = default;
@@ -37,15 +38,18 @@ public:
   const cv::Mat vocabulary() const { return vocabulary_; };
   bool empty() const { return (size() == 0); }
   const cv::Mat &bestLabels() const { return bestLabels_; };
+  const std::vector<int> &words_occurrence() const {
+    return words_occurrence_;
+  };
 
   // Setter funcs
   void build(const int &max_iterations, const int &dict_size,
              const std::vector<cv::Mat> &descriptors);
   void set_vocabulary(const cv::Mat &vocabulary) { vocabulary_ = vocabulary; }
-  void set_word_ocurrence(const std::vector<int> &words_occurrence) {
+  void set_words_ocurrence(const std::vector<int> &words_occurrence) {
     words_occurrence_ = words_occurrence;
   }
-  void set_word_ocurrence(const std::vector<Histogram> &words_occurrence)
+  void set_words_ocurrence(const std::vector<Histogram> &vec_hist);
   // Other utility funcs
   // bool need_update(const int &max_iterations, const int &dict_size,
   //                  const std::vector<cv::Mat> &descriptors,

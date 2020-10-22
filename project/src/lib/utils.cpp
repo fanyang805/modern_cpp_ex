@@ -9,6 +9,7 @@
 #include <opencv2/core.hpp>
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/xfeatures2d.hpp>
+#include <vector>
 
 using namespace cv;
 
@@ -114,7 +115,7 @@ std::vector<bovw::Histogram> gen_vechist_from_csv(const std::string &filename) {
   std::string line;
   while (std::getline(in, line) && !line.empty()) {
     std::vector<int> data;
-    std::cout << line << std::endl;
+    // std::cout << line << std::endl;
     std::stringstream ss{line};
     std::string str_counts;
     while (std::getline(ss, str_counts, ',')) {
@@ -123,6 +124,10 @@ std::vector<bovw::Histogram> gen_vechist_from_csv(const std::string &filename) {
       // std::cout << counts << " ";
     }
     vec_hist.emplace_back(Histogram(data));
+  }
+
+  for (auto &hist : vec_hist) {
+    hist.set_img_num(vec_hist.size());
   }
 
   return vec_hist;

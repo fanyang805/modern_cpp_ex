@@ -63,4 +63,28 @@ void BowDictionary::build(const int &max_iterations, const int &dict_size,
   bestLabels_ = bestLabels.clone();
 }
 
+void BowDictionary::set_words_ocurrence(
+    const std::vector<Histogram> &vec_hist) {
+  if (vec_hist.size() == 0) {
+    std::cerr << "The input vector of histograms is empty!\n";
+    return;
+  }
+  if (empty()) {
+    std::cerr << "The dictionary is empty!\n";
+    return;
+  }
+  std::vector<int> words_occurrence(size());
+  for (const auto &hist : vec_hist) {
+    int word_idx = 0;
+    for (const auto &word_num : hist.data()) {
+      if (word_num > 0) {
+        ++words_occurrence[word_idx];
+      }
+      ++word_idx;
+    }
+  }
+
+  words_occurrence_ = words_occurrence;
+}
+
 } // namespace bovw
