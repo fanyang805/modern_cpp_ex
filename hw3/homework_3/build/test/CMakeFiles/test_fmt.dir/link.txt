@@ -1,1 +1,0 @@
-/usr/bin/clang++-10  -Wall -Wextra -g -O0   CMakeFiles/test_fmt.dir/test.cpp.o  -o ../../bin/test_fmt /usr/local/lib/libfmt.a 
