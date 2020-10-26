@@ -25,8 +25,11 @@ public:
   // Constructors
   Histogram() = default;
   explicit Histogram(const std::vector<int> &data) : data_(data){};
-  explicit Histogram(const std::vector<int> &data, int img_num)
-      : data_(data), img_num_(img_num){};
+  // explicit Histogram(const std::vector<int> &data, int img_num)
+  //     : data_(data), img_num_(img_num){};
+  explicit Histogram(const std::vector<int> &data,
+                     const std::vector<float> &reweighted_data, int img_num)
+      : data_(data), reweighted_data_(reweighted_data), img_num_(img_num){};
   Histogram(cv::Mat descriptors, const BowDictionary &dictionary);
   explicit Histogram(const cv::Mat_<int> &bestLabel, int dictionary_size);
   // Getter functions
@@ -39,6 +42,7 @@ public:
   int img_num() const { return img_num_; };
   // Setter
   void set_img_num(int img_num) { img_num_ = img_num; };
+  std::vector<float> &reweighted_data() { return reweighted_data_; };
   // Operators
   int &operator[](size_t idx) { return data_[idx]; };
   const int &operator[](size_t idx) const { return data_[idx]; };

@@ -36,7 +36,7 @@ ConvertDataset(const std::filesystem::path &img_path,
     // Make sure the extension is png
     const std::string extension = fs::path(filename).extension();
     if (extension != ".png") {
-      std::cout << "The image file " << filename << " is not .png file.\n";
+      std::cerr << "The image file " << filename << " is not .png file.\n";
       continue;
     }
 

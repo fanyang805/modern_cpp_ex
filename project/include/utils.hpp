@@ -16,20 +16,31 @@ bool inline mat_are_equal(const cv::Mat &m1, const cv::Mat &m2) {
 
 const cv::Mat compute_sifts(const std::string &);
 
+const std::string gen_img_name(const std::string &img_path,
+                               const std::string &extension, int img_id);
+const std::vector<std::string> gen_img_name(const std::string &img_path,
+                                            const std::string &extension,
+                                            const std::vector<int> &img_ids);
+
 const std::vector<std::string> get_sequence(const std::string &img_path,
                                             const std::string &extension,
                                             int min_num, int max_num);
 
 float cosine_dis(const cv::Mat &mat1, const cv::Mat &mat2);
+float cosine_dis(const std::vector<float> &vec1,
+                 const std::vector<float> &vec2);
 
 float euclidean_dis_sq(const cv::Mat &mat1, const cv::Mat &mat2);
+float euclidean_dis_sq(const std::vector<float> &vec1,
+                       const std::vector<float> &vec2);
 
 cv::Mat Vec_MatToMat(const std::vector<cv::Mat> &);
 
 std::vector<cv::Mat> gen_blabels(const cv::Mat &bestLabels,
                                  const std::vector<cv::Mat> &descriptors);
 
-std::vector<bovw::Histogram> gen_vechist_from_csv(const std::string &filename);
+std::vector<bovw::Histogram> gen_vechist_from_csv(const std::string &filename,
+                                                  bool reweight = false);
 
 template <typename T>
 std::ostream &operator<<(std::ostream &os, const std::vector<T> &vec) {
@@ -44,6 +55,10 @@ std::ostream &operator<<(std::ostream &os, const std::vector<T> &vec) {
   }
   return os;
 }
+
+void show_results(const Histogram &query_img,
+                  const std::vector<Histogram> &vec_hist, int results_num,
+                  const std::string html_name = "show_results.html");
 
 } // namespace bovw
 

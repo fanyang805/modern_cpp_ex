@@ -9,6 +9,7 @@
 #include "utils.hpp"
 
 using namespace bovw;
+using namespace cv;
 
 int main() {
 
@@ -49,5 +50,20 @@ int main() {
     std::cout << data << std::endl;
     hist.WriteToCSV(filename_reweighted, true);
   }
+
+  // Compute consine distance between the first picture and the others
+  const std::vector<float> &vec_img0 = vec_hist_from_csv[0].reweighted_data();
+  Mat img0 = Mat(vec_img0);
+  std::cout << "Start to compare images by cosine distance: \n";
+  int img_idx = 0;
+  for (auto it = vec_hist_from_csv.cbegin(); it < vec_hist_from_csv.cend();
+       ++it) {
+    const std::vector<float> &vec_img = it->reweighted_data();
+    Mat img = Mat(vec_img);
+    std::cout << "Mat type is " << img.type() << std::endl;
+    std::cout << "Distance to image " << img_idx++ << ": "
+              << cosine_dis(img0, img) << std::endl;
+  }
+
   return 0;
 } // namespace )

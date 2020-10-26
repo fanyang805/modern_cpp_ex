@@ -50,10 +50,9 @@ public:
     words_occurrence_ = words_occurrence;
   }
   void set_words_ocurrence(const std::vector<Histogram> &vec_hist);
-  // Other utility funcs
-  // bool need_update(const int &max_iterations, const int &dict_size,
-  //                  const std::vector<cv::Mat> &descriptors,
-  //                  const int &total_features) const;
+  // Utility funcs
+  void serialize_dic(const std::string &filename) const;
+  void deserialize_dic(const std::string &filename);
 };
 
 } // namespace bovw

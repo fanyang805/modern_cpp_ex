@@ -12,6 +12,7 @@
 using namespace cv;
 
 int main() {
+  // Build dictionary
   const std::string &bin_path{"data/bin/"};
   const std::string &bin_extension{".bin"};
   std::vector<std::string> bin_sequence =
@@ -27,6 +28,7 @@ int main() {
   std::cout << std::boolalpha << "empty: " << dictionary.empty() << std::endl;
   std::cout << "blabel size: " << dictionary.bestLabels().size << std::endl;
   std::cout << "VOC size: " << dictionary.vocabulary().size << std::endl;
+  // Create histograms
   std::vector<Mat> label_for_each =
       bovw::gen_blabels(dictionary.bestLabels(), descriptors);
   std::cout << "bestLabels size: " << label_for_each.size() << std::endl;

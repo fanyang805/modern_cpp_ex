@@ -1,6 +1,7 @@
 #include "histogram.hpp"
 
 #include <cmath>
+#include <filesystem>
 #include <fstream>
 #include <limits>
 #include <sstream>
@@ -74,6 +75,8 @@ void Histogram::ReadFromCSV(const std::string &filename, bool reweighted) {
 }
 
 void Histogram::WriteToCSV(const std::string &filename, bool reweighted) const {
+  namespace fs = std::filesystem;
+  fs::create_directories(fs::path(filename).remove_filename());
   std::ofstream out(filename, std::ios::app);
   size_t counts = 1;
   if (!reweighted) {

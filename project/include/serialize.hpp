@@ -1,7 +1,4 @@
-// @file      serialize.hpp
-// @author    Ignacio Vizzo     [ivizzo@uni-bonn.de]
-//
-// Copyright (c) 2020 Ignacio Vizzo, all rights reserved
+
 #ifndef SERIALIZE_HPP_
 #define SERIALIZE_HPP_
 
